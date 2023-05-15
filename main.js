@@ -13,6 +13,8 @@
     }
     
     function toggleOff(){
+        clickMenuLink('home-link');
+        clickMenuLink('about-link');
         clickMenuLink('projects-link');
         clickMenuLink('contact-link');
     }
