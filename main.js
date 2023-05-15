@@ -13,7 +13,6 @@
     }
     
     function toggleOff(){
-        clickMenuLink('about-link');
         clickMenuLink('projects-link');
         clickMenuLink('contact-link');
     }
