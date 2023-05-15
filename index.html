@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mike Holland's Portfolio</title>
+  <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="checkbox" id ="toggle" class="toggle"/>
+    <label class="hamburger" for="toggle">☰</label>
+
+    <label class="menu-wrapper" for="toggle">
+        <nav class="menu">
+            <nav class="menu-list">
+                <a href="#about" id="about-link">About</a>
+                <a href="#projects" id="projects-link">Projects</a>
+                <a href="#contact" id="contact-link">Contact</a>
+            </nav>
+        </nav>
+    </label>
+
+    <nav class="socials-wrapper" for="toggle">
+        <nav class="socials">
+            <a href="https://www.twitter.com/_lmholland" id="twitter-link">T</a>
+            <a href="https://www.github.com/lmholland" id="github-link">G</a>
+            <a href="https://www.youtube.com/watch?v=jQAK6sVovUk" id="youtube-link">Y</a>
+            <a href="https://old.reddit.com/user/audiblenod" id="reddit-link">R</a>
+        </nav>
+    </nav>
+
+    <nav class="email-wrapper" for="toggle">
+        <nav class="email">
+            <a href="mailto:lmholland@proton.me" id="email-link">lmholland@proton.me</a>
+        </nav>
+    </nav>
+
+    <label class="close-menu-btn" for="toggle">X</label>
+
+    <section id="home">
+        <div class="home">
+            <h2 class="greeting">Hi,</h2>
+            <h1 class="name">I'm Mike Holland</h1>
+            <h2 class="name-details">and I can make websites.</h2>
+        </div>
+    </section>
+
+    <section id="about"> 
+        <div class="about">
+            <h3 class="name-details">After living and working overseas for the past decade,</h3>
+            <h3 class="name-details">I've learned a few things.</h3>
+            <br>
+            <h3 class="name-details">Mostly about geography, languages, and different cultures.</h3>
+            <h3 class="name-details">But also a lot about computer science, too.</h3>
+            <br>
+            <h3 class="name-details">In 2022, I was able to take some time off work</h3>
+            <h3 class="name-details">and I decided to use that time to teach myself how to code.</h3>
+            <br>
+            <h3 class="name-details">I went from knowing almost nothing</h3>
+            <h3 class="name-details">about programming in mid-2022</h3>
+            <h3 class="name-details">to being able to teach myself the fundamentals of</h3>
+            <h3 class="name-details">HTML, CSS, PHP, Javascript, and Python</h3>
+            <h3 class="name-details">and get several websites and games launched</h3>
+            <h3 class="name-details">within a few months.</h3>
+            <br>
+            <h3 class="name-details">Being entirely self-taught</h3>
+            <h3 class="name-details">I was very surprised with how much I was able</h3>
+            <h3 class="name-details">to learn and accomplish in that time.</h3>
+            <br>
+            <h3 class="name-details">Take a look at some of these projects below.</h3>
+        </div>
+    </section>
+
+    <section id="projects"> 
+        <div class="projects">
+            <span class="dropdown" id="ffa">
+                <img src="./img/ffa_jpg.jpg" alt="FFA Playthrough" onmouseover="this.src='./img/ffa.gif'" onmouseout="this.src='./img/ffa_jpg.jpg'" width="300" height="200">
+                <div class="dropdown-content">
+                    <img src="./img/ffa_hb.gif">
+                    <h5 class="green">99.2% Javascript (vanilla)</h5>
+                    <h5 class="purple">0.4% HTML</h5>
+                    <h5 class="red">0.4% CSS</h5>
+                    <ul>
+                        <li>Top-down 2d shooter/ capture the flag/ geography game.</li>
+                        <li>Characters based on Polandball webcomic.</li>
+                        <li>Custom map and sprites</li>
+                    </ul>
+                    <a href="https://www.countryballffa.com">countryballffa.com</a>
+                </div>
+            </span>
+            <span class="dropdown" id="geojets">
+                <img src="./img/geojets_jpg.jpg" alt="Geojets Playthrough" onmouseover="this.src='./img/geojets.gif'" onmouseout="this.src='./img/geojets_jpg.jpg'" width="300" height="200">
+                <div class="dropdown-content">
+                    <img src="./img/geojets_hb.gif">
+                    <h5 class="green">100% Python (pygame)</h5>
+                    <ul>
+                        <li>Top-down 2d jet fighter/ bomb-the-city/ geography game</li>
+                        <li>Clone of Countryball FFA game but using Python instead of Javascript</li>
+                        <li>Uses pygame library</li>
+                    </ul>
+                    <a href="https://www.geojets.com">geojets.com</a>
+                </div>
+            </span>
+            <span class="dropdown" id="globe">
+                <img src="./img/globe_jpg.jpg" alt="Globe Playthrough" onmouseover="this.src='./img/globe.gif'" onmouseout="this.src='./img/globe_jpg.jpg'" width="300" height="200">
+                <div class="dropdown-content">
+                    <img src="./img/globe_hb.gif">
+                    <h5 class="green">99.8% Javascript (three.js)</h5>
+                    <h5 class="purple">0.1% HTML</h5>
+                    <h5 class="red">0.1% CSS</h5>
+                    <ul>
+                        <li>3d globe/ pin-the-city/ geography game</li>
+                        <li>Uses the three.js library</li>
+                    </ul>
+                    <a href="https://www.globegame.com">globegame.com</a>
+                </div>
+            </span>
+            <span class="dropdown" id="scraper">
+                <img src="./img/scraper_jpg.jpg" alt="Wikipedia Scraper" onmouseover="this.src='./img/scraper.gif'" onmouseout="this.src='./img/scraper_jpg.jpg'" width="300" height="200">
+                <div class="dropdown-content">
+                    <img src="./img/scraper_hb.gif">
+                    <h5 class="green">100% Javascript (node.js)</h5>
+                    <ul>
+                        <li>Backend web scraper using node.js library</li>
+                        <li>Scrapes ~800 webpages for images and text</li>
+                        <li>Scrape interval set to 10 seconds per page: ~1.5 hrs to scrape everything</li>
+                    </ul>
+                    <a href="https://www.wikiscraper.com">wikiscraper.com</a>
+                </div>
+            </span>
+            <span class="dropdown" id="quiz">
+                <img src="./img/quiz_jpg.jpg" alt="Quiz Playthough" onmouseover="this.src='./img/quiz.gif'" onmouseout="this.src='./img/quiz_jpg.jpg'" width="300" height="200">
+                <div class="dropdown-content">
+                    <img src="./img/quiz_hb.gif">
+                    <h5 class="green">99.9% Javascript (vanilla)</h5>
+                    <h5 class="purple">0.1% HTML</h5>
+                    <h5 class="red">0.1% CSS</h5>
+                    <ul>
+                        <li>Frontend geography quiz using vanilla Javascript</li>
+                        <li>Information is based on the output from the wikiscraper</li>
+                    </ul>
+                    <a href="https://www.geoquiz.com">geoquiz.com</a>
+                </div>
+            </span>
+            <span class="dropdown" id="portfolio">
+                <img src="./img/portfolio_jpg.jpg" alt="Portfolio" width="300" height="200">
+                <div class="dropdown-content">
+                    <img src="./img/portfolio_hb.gif">
+                    <h5 class="green">57% HTML</h5>
+                    <h5 class="purple">36% CSS</h5>
+                    <h5 class="red">7% Javascript (vanilla)</h5>
+                    <ul>
+                        <li>Portfolio of my 2022-2023 projects</li>
+                        <li>Showcases HTML and CSS skills rather than Javascript</li>
+                    </ul>
+                    <a href="https://www.mikedev.com">mikedev.com</a>
+                </div>
+            </span>
+        </div>
+    </section>
+
+    <section id="contact"> 
+        <div class="contact">
+            <form action="https://formsubmit.co/a073dc76ee02fca7551bce367c380b89" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit">Send</button>
+           </form>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

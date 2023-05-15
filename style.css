@@ -1,0 +1,379 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#ABCDEF;
+    margin: 0;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: disc;
+    list-style-position: inside;
+    text-align: left;
+    padding: 1vh 1vw;
+}
+
+.green{
+    color: green;
+}
+
+.purple{
+    color: purple;
+}
+
+.red{
+    color: red;
+}
+
+.hamburger {
+    display: none;
+}
+
+input {
+    display: none;
+}
+
+.menu {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu-list {
+    display: block;
+    position: absolute;
+    right: 1em;
+    top: 0.5em;
+    word-spacing: 0.5em;
+}
+
+.socials-wrapper {
+    display: block;
+    position: fixed;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    bottom: 10vh;
+    word-spacing: 0.5em;
+    height: 0;
+}
+
+.socials {
+    display: grid;
+    position: absolute;
+    font-size: 0.8em;
+    left: 1em;
+    bottom: 1em;
+}
+
+.email-wrapper {
+    display: block;
+    position: fixed;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    bottom: 10vh;
+    height: 0;
+}
+
+.email {
+    display: block;
+    position: absolute;
+    font-size: 0.8em;
+    right: 1em;
+    bottom: 1em;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:cadetblue;
+}
+
+.close-menu-btn {
+    display: none;
+}
+
+section {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greeting { 
+    color: #093a52;
+    text-align: left;
+}
+
+.name { 
+    color: #29789c;
+    text-align: center;
+}
+
+.name-details {
+    color: #194a61;
+    text-align: center;
+}
+
+#projects {
+    margin: 10vh;
+}
+
+.projects {
+    margin: 10vw;
+    width: 100vw;
+    text-align: center;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+
+}
+
+.dropdown:hover {
+    background-color: gray;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    background-color: orange;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1 {
+    font-size: 6.2vw;
+    margin: 0.5vw;
+}
+
+h2 {
+    font-size: 4vw;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 0;
+}
+
+h5 {
+    font-size: 0.7em;
+    margin: 0;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background: pink;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+form{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form h3{
+    color: teal;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: maroon;
+    font-size: 16px;
+}
+
+form button{
+    padding: 15px;
+    background: darkmagenta;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+
+}
+
+form input {
+    display:block
+}
+
+@media only screen and (min-width: 1600px) {
+    h1 {
+        font-size: 99px;
+    }
+
+    h2 {
+        font-size: 64px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 2vh;
+        right: 2vw;
+        font-size: 2em;
+        color: darkblue;
+    }
+
+    .hamburger:hover {
+        color: white;
+    }
+
+    .menu-wrapper, .socials-wrapper, .email-wrapper {
+        display: none;
+    }
+
+    #toggle:checked ~ .menu-wrapper {
+        display: block;
+    }
+
+    #toggle:checked ~ .socials-wrapper {
+        display: block;
+    }
+
+    #toggle:checked ~ .email-wrapper {
+        display: block;
+    }
+
+    .menu {
+        display: block;
+        height: 100vh;
+        background-color: white;
+        width: 50vw;
+    }
+
+    a:hover {
+        color:lightgray;
+    }
+
+    #toggle:checked ~ .close-menu-btn {
+        display: block;
+        position: absolute;
+        color: red;
+        right: 2vw;
+        top: 1vh;
+        font-size: 2em;
+    }
+
+    #toggle:checked ~ .close-menu-btn:hover {
+        color: orange;
+    }
+
+    .menu-list {
+        display: grid;
+        width: 50vw;
+        text-align: center;
+        grid-auto-rows: 10vh;
+        margin-top: 30vh;
+        position: unset;
+    }
+
+    .socials {
+        text-align: center;
+        display: block;
+        font-size: 1em;
+        padding: 0;
+        margin: 0;
+        width: 50vw;
+        left: 50vw;
+    }
+
+    .email {
+        text-align: center;
+        font-size: 0.5em;
+        display: block;
+        writing-mode: unset;
+        width: 50vw;
+        left: 50vw;    
+    }
+
+    h1 {
+        font-size: 50px;
+        margin: 4.5px;
+    }
+    
+    h2 {
+        font-size: 32px;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin: 0;
+    }
+}
