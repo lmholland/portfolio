@@ -150,6 +150,14 @@ section {
     text-align: center;
 }
 
+#home img {
+    border-radius: 30px;
+}
+
+.profile-pic {
+    display: inline-block;
+}
+
 #projects {
     margin: 10vh;
 }
