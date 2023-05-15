@@ -135,23 +135,36 @@ section {
     justify-content: center;
 }
 
-.greeting { 
+.home {
+    display: inline-flex;
+    padding: 20%;
+}
+
+.job-title { 
     color: #093a52;
     text-align: left;
+    font-size: 3em;
+    padding: 0 5% 0 0;
 }
 
 .name { 
     color: #29789c;
-    text-align: center;
+    text-align: left;
+    padding: 0 5% 0 0;
 }
 
-.name-details {
+.tech-stack {
     color: #194a61;
-    text-align: center;
+    text-align: left;
+    font-size: 2em;
 }
 
 #home img {
     border-radius: 30px;
+}
+
+#profile-pic {
+    width: 12vw;
 }
 
 .profile-pic {
