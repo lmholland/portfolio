@@ -140,10 +140,12 @@ section {
     padding: 20%;
 }
 
-.title
+.title{
+    vertical-align: middle;
+}
 
 .title img{
-    width: 40px;
+    width: 20px;
     border-radius: 0;
 }
 
@@ -166,6 +168,10 @@ section {
     text-align: left;
     font-size: 2vw;
     margin-left: 1vw;
+}
+
+.tech-stack img {
+    width: 40px;
 }
 
 #profile-pic {
