@@ -115,6 +115,10 @@ a {
     color: black;
 }
 
+a img {
+    width: 50px;
+}
+
 a:hover {
     color:cadetblue;
 }
