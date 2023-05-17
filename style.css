@@ -65,29 +65,7 @@ input {
     word-spacing: 0.5em;
 }
 
-.socials-wrapper {
-    display: block;
-    position: fixed;
-    font-size: 2em;
-    padding: 0;
-    margin: 0;
-    right: 0;
-    width: 100vw;
-    height: 100vh;
-    bottom: 10vh;
-    word-spacing: 0.5em;
-    height: 0;
-}
-
-.socials {
-    display: grid;
-    position: absolute;
-    font-size: 0.8em;
-    left: 1em;
-    bottom: 1em;
-}
-
-.email-wrapper {
+.side-info {
     display: block;
     position: fixed;
     text-decoration: none;
@@ -101,12 +79,20 @@ input {
     height: 0;
 }
 
+.socials {
+    display: grid;
+    position: absolute;
+    font-size: 0.8em;
+    right: 1em;
+    bottom: -1em;
+}
+
 .email {
     display: block;
     position: absolute;
     font-size: 0.8em;
     right: 1em;
-    bottom: 1em;
+    bottom: 5em;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
@@ -173,6 +159,7 @@ section {
 .profile-pic img {
     width: 20vw;
     border-radius: 30px;
+    border: 2px solid grey;
 }
 
 #about {
@@ -347,7 +334,7 @@ form input {
     }
 
     .profile-pic img {
-        width: 256px;
+        width: 280px;
     }
 
     .title {
@@ -389,7 +376,7 @@ form input {
         color: white;
     }
 
-    .menu-wrapper, .socials-wrapper, .email-wrapper {
+    .menu-wrapper, .side-info {
         display: none;
     }
 
@@ -397,11 +384,7 @@ form input {
         display: block;
     }
 
-    #toggle:checked ~ .socials-wrapper {
-        display: block;
-    }
-
-    #toggle:checked ~ .email-wrapper {
+    #toggle:checked ~ .side-info {
         display: block;
     }
 
@@ -443,7 +426,6 @@ form input {
         display: block;
         font-size: 1em;
         padding: 0;
-        margin: 0;
         width: 50vw;
         left: 50vw;
     }
