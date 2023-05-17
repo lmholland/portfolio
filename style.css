@@ -340,6 +340,37 @@ form input {
     .home {
         display: block;
     }
+
+    .profile-pic {
+        padding: 0 20vw;
+    }
+
+    .profile-pic img {
+        width: 256px;
+    }
+
+    .title {
+        padding: 1vh 0 0 0;
+    }
+
+    .job-title {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .name {
+        text-align: center;
+        font-size: 48px;
+    }
+    
+    .tech-stack {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .tech-stack img {
+        width: 32px;
+    }
 }
 
 
