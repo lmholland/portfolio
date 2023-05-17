@@ -4,7 +4,8 @@ html {
 
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background:#ABCDEF;
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(10deg, #013A6B 50%, #ABCDEF 50%);
     margin: 0;
     overflow-x: hidden;
     -ms-overflow-style: none;  /* IE and Edge */
