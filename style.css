@@ -141,7 +141,7 @@ section {
 }
 
 .title {
-    padding: 5vh 2vw;
+    padding: 7vh 0 0 2vw;
 }
 
 .job-title { 
@@ -153,7 +153,7 @@ section {
 .name { 
     color: #29789c;
     text-align: left;
-    font-size: 5vw;
+    font-size: 5.5vw;
 }
 
 .tech-stack {
@@ -165,8 +165,8 @@ section {
 
 .tech-stack img {
     width: 3vw;
-    padding: 0 0.5vw;
-    vertical-align: middle;
+    padding: 0 0.75vw;
+    vertical-align:text-bottom;
 }
 
 .profile-pic img {
@@ -317,6 +317,22 @@ form input {
 
     .profile-pic img {
         width: 318px;
+    }
+
+    .job-title {
+        font-size: 48px;
+    }
+
+    .name {
+        font-size: 87px;
+    }
+
+    .tech-stack {
+        font-size: 32px;
+    }
+
+    .tech-stack img {
+        width: 45px;
     }
 }
 
