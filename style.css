@@ -140,8 +140,8 @@ section {
     padding: 20%;
 }
 
-.title{
-    vertical-align: middle;
+.title {
+    padding: 6vh 2vw;
 }
 
 .title img{
@@ -153,13 +153,11 @@ section {
     color: #093a52;
     text-align: left;
     font-size: 3vw;
-    margin-left: 1vw;
 }
 
 .name { 
     color: #29789c;
     text-align: left;
-    margin-left: 1vw;
     font-size: 5vw;
 }
 
@@ -167,19 +165,14 @@ section {
     color: #194a61;
     text-align: left;
     font-size: 2vw;
-    margin-left: 1vw;
 }
 
 .tech-stack img {
-    width: 40px;
+    width: 30px;
 }
 
 #profile-pic {
-    width: 15vw;
-}
-
-.profile-pic {
-    display: inline-block;
+    width:20vw;
 }
 
 .profile-pic img {
