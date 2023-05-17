@@ -141,12 +141,7 @@ section {
 }
 
 .title {
-    padding: 6vh 2vw;
-}
-
-.title img{
-    width: 20px;
-    border-radius: 0;
+    padding: 5vh 2vw;
 }
 
 .job-title { 
@@ -165,17 +160,21 @@ section {
     color: #194a61;
     text-align: left;
     font-size: 2vw;
+    padding: 1vw;
 }
 
 .tech-stack img {
-    width: 30px;
+    width: 3vw;
+    padding: 0 1vw;
+    vertical-align: middle;
 }
 
-#profile-pic {
+/* #profile-pic {
     width:20vw;
-}
+} */
 
 .profile-pic img {
+    width:20vw;
     border-radius: 30px;
 }
 
