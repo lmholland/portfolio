@@ -165,13 +165,9 @@ section {
 
 .tech-stack img {
     width: 3vw;
-    padding: 0 1vw;
+    padding: 0 0.5vw;
     vertical-align: middle;
 }
-
-/* #profile-pic {
-    width:20vw;
-} */
 
 .profile-pic img {
     width:20vw;
@@ -317,6 +313,16 @@ form input {
 
     h2 {
         font-size: 64px;
+    }
+
+    .profile-pic img {
+        width: 318px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .home {
+        display: block;
     }
 }
 
