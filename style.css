@@ -170,7 +170,7 @@ section {
 }
 
 .profile-pic img {
-    width:20vw;
+    width: 20vw;
     border-radius: 30px;
 }
 
@@ -336,7 +336,7 @@ form input {
     }
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1200px){
     .home {
         display: block;
     }
