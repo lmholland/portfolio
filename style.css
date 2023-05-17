@@ -84,7 +84,7 @@ input {
     position: absolute;
     font-size: 0.8em;
     right: 1em;
-    bottom: -1em;
+    bottom: 10em;
 }
 
 .email {
@@ -92,7 +92,7 @@ input {
     position: absolute;
     font-size: 0.8em;
     right: 1em;
-    bottom: 5em;
+    bottom: -1em;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
@@ -368,7 +368,7 @@ form input {
         position: absolute;
         top: 2vh;
         right: 2vw;
-        font-size: 2em;
+        font-size: 3em;
         color: darkblue;
     }
 
