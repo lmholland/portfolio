@@ -146,14 +146,19 @@ section {
 .tech-stack {
     color: #194a61;
     text-align: left;
-    font-size: 2vw;
-    padding: 1vw;
+    padding: 1vw 0;
+    display: inline-block;
 }
 
 .tech-stack img {
     width: 3vw;
     padding: 0 0.75vw;
-    vertical-align:text-bottom;
+    vertical-align: text-bottom;
+}
+
+.tech-stack h2{
+    font-size: 12px;
+    padding: 10px;
 }
 
 .profile-pic img {
@@ -325,7 +330,7 @@ form input {
     }
 
     .tech-stack {
-        font-size: 32px;
+        font-size: 12px;
     }
 
     .tech-stack img {
@@ -362,7 +367,7 @@ form input {
     
     .tech-stack {
         text-align: center;
-        font-size: 24px;
+        font-size: 12px;
     }
 
     .tech-stack img {
