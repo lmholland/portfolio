@@ -149,7 +149,8 @@ section {
 }
 
 .tech-unit {
-    color: rgb(80, 38, 38);
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     text-align: center;
     padding: 10px 5px 0;
     display: inline-block;
