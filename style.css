@@ -166,6 +166,15 @@ section {
     background-color: white;
 }
 
+.about{
+    width: 500px;
+
+}
+
+.about-blurb{
+    font-size: 1.5em;
+}
+
 #projects {
     margin: 10vh;
 }
