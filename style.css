@@ -145,18 +145,23 @@ section {
 
 .tech-stack {
     color: #194a61;
-    text-align: left;
-    padding: 1vw 0;
     display: inline-block;
 }
 
-.tech-stack img {
+.tech-unit {
+    color: rgb(80, 38, 38);
+    text-align: center;
+    padding: 10px 5px 0;
+    display: inline-block;
+}
+
+.tech-unit img {
     width: 3vw;
-    padding: 0 0.75vw;
+    padding: 0 15px 0;
     vertical-align: text-bottom;
 }
 
-.tech-stack h2{
+.tech-unit h2{
     font-size: 12px;
     padding: 10px;
 }
@@ -366,6 +371,7 @@ form input {
     }
     
     .tech-stack {
+        padding: 0 4vw;
         text-align: center;
         font-size: 12px;
     }
@@ -374,7 +380,6 @@ form input {
         width: 32px;
     }
 }
-
 
 @media only screen and (max-width: 800px) {
     .hamburger {
