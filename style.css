@@ -82,17 +82,16 @@ input {
 .socials {
     display: grid;
     position: absolute;
-    font-size: 0.8em;
-    right: 1em;
-    bottom: 10em;
+    font-size: 30px;
+    right: 10px;
+    bottom: 0px;
 }
 
 .email {
-    display: block;
     position: absolute;
-    font-size: 0.8em;
-    right: 1em;
-    bottom: -1em;
+    font-size: 30px;
+    right: 10px;
+    bottom: 150px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
@@ -143,7 +142,7 @@ section {
 
 .tech-unit {
     color: white;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    text-shadow: 0 0 1px black, 0 0 3px black, 0 0 2px black, 0 0 1px black;
     text-align: center;
     padding: 10px 5px 0;
     display: inline-block;
