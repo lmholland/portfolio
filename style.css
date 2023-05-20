@@ -123,23 +123,17 @@ section {
 }
 
 .home {
-    display: inline-flex;
-}
-
-.title {
-    margin: 0 0 0 0;
+    display: flex;
 }
 
 .job-title { 
     color: #093a52;
     text-align: left;
-    font-size: 3vw;
 }
 
 .name { 
     color: #29789c;
     text-align: left;
-    font-size: 5.5vw;
 }
 
 .tech-stack {
@@ -238,7 +232,7 @@ section {
 
 h1 {
     font-size: 6.2vw;
-    margin: 0.5vw;
+    margin: 5px;
 }
 
 h2 {
@@ -314,14 +308,6 @@ form input {
 }
 
 @media only screen and (min-width: 1201px) {
-    h1 {
-        font-size: 99px;
-    }
-
-    h2 {
-        font-size: 64px;
-    }
-
     .profile-pic img {
         width: 250px;
     }
@@ -330,7 +316,6 @@ form input {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: left;
         margin: 0 0 0 15px;
     }
 
@@ -339,7 +324,7 @@ form input {
     }
 
     .name {
-        font-size: 80px;
+        font-size: 90px;
     }
 
     .tech-stack {
