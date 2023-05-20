@@ -124,7 +124,8 @@ section {
 
 .home {
     display: inline-flex;
-    padding: 10%;
+    padding: 10% auto;
+
 }
 
 .title {
@@ -350,7 +351,7 @@ form input {
     }
 
     .profile-pic {
-        padding: 0 20vw;
+        padding: 0 25vw;
     }
 
     .profile-pic img {
