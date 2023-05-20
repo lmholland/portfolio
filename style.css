@@ -98,7 +98,7 @@ input {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #093a52;
 }
 
 a img {
@@ -106,7 +106,7 @@ a img {
 }
 
 a:hover {
-    color:cadetblue;
+    color: cadetblue;
 }
 
 .close-menu-btn {
@@ -397,7 +397,8 @@ form input {
     .menu {
         display: block;
         height: 100vh;
-        background-color: white;
+        background-color: rgb(212, 239, 248);
+        border: 1px solid black;
         width: 50vw;
     }
 
@@ -409,7 +410,7 @@ form input {
         display: block;
         position: absolute;
         color: red;
-        right: 2vw;
+        right: 10px;
         top: 1vh;
         font-size: 2em;
     }
@@ -420,10 +421,11 @@ form input {
 
     .menu-list {
         display: grid;
+        height: 80vh;
+        margin-top: 20vh;
         width: 50vw;
         text-align: center;
         grid-auto-rows: 10vh;
-        margin-top: 30vh;
         position: unset;
     }
 
@@ -434,6 +436,7 @@ form input {
         padding: 0;
         width: 50vw;
         left: 50vw;
+        bottom: 15px;
     }
 
     .email {
@@ -442,7 +445,8 @@ form input {
         display: block;
         writing-mode: unset;
         width: 50vw;
-        left: 50vw;    
+        left: 50vw;   
+        bottom: 0px; 
     }
 
     h1 {
