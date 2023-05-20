@@ -5,7 +5,7 @@ html {
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(10deg, #013A6B 50%, #ABCDEF 50%);
+    background-image: -webkit-linear-gradient(13deg, #013A6B 50%, #ABCDEF 50%);
     margin: 0;
     overflow-x: hidden;
     -ms-overflow-style: none;  /* IE and Edge */
@@ -124,12 +124,10 @@ section {
 
 .home {
     display: inline-flex;
-    padding: 10% auto;
-
 }
 
 .title {
-    padding: 7vh 0 0 2vw;
+    margin: 0 0 0 0;
 }
 
 .job-title { 
@@ -315,7 +313,7 @@ form input {
     display:block
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1201px) {
     h1 {
         font-size: 99px;
     }
@@ -325,15 +323,23 @@ form input {
     }
 
     .profile-pic img {
-        width: 280px;
+        width: 250px;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        margin: 0 0 0 15px;
     }
 
     .job-title {
-        font-size: 48px;
+        font-size: 50px;
     }
 
     .name {
-        font-size: 87px;
+        font-size: 80px;
     }
 
     .tech-stack {
@@ -351,15 +357,11 @@ form input {
     }
 
     .profile-pic {
-        padding: 0 25vw;
+        text-align: center;
     }
 
     .profile-pic img {
         width: 280px;
-    }
-
-    .title {
-        padding: 1vh 0 0 0;
     }
 
     .job-title {
@@ -369,11 +371,10 @@ form input {
 
     .name {
         text-align: center;
-        font-size: 48px;
+        font-size: 64px;
     }
     
     .tech-stack {
-        padding: 0 12vw;
         text-align: center;
         font-size: 12px;
     }
