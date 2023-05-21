@@ -204,6 +204,7 @@ section {
 }
 
 .dropdown img {
+    border: 1px solid black;
     border-radius: 25px;
 }
 
