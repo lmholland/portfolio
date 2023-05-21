@@ -231,6 +231,7 @@ section {
 
 .dropdown-content a:hover {
     background-color: #f5f2f2;
+    color:#013A6B;
 }
 
 .dropdown:hover .dropdown-content {
@@ -241,7 +242,6 @@ section {
 
 .info_bar{
     background-color: lightgrey;
-    margin: 3px 0;
     padding: 3px 0;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
