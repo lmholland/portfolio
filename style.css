@@ -240,6 +240,10 @@ section {
     margin: -5px 0 0 0;
 }
 
+.dropdown h4 {
+    padding: 1vh 1vw;
+}
+
 .info_bar{
     background-color: lightgrey;
     padding: 3px 0;
@@ -265,6 +269,7 @@ h3 {
 h4 {
     font-size: 1em;
     margin: 0;
+    font-weight: 100;
 }
 
 h5 {
@@ -386,7 +391,7 @@ form input {
     }
 
     #projects {
-        height: 200vh;
+        height: 140vh;
     }
 }
 
