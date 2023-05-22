@@ -122,15 +122,23 @@ section {
 }
 
 .home {
-    text-align: center;
+    text-align: right;
 }
 
 .my_name {
     font-size: 96px;
+    text-align: center;
 }
 
 .title {
     font-size: 48px;
+    text-align: center;
+}
+
+.cover {
+    position: absolute; 
+    border: 1px solid black;
+    width: 100px;
 }
 
 .about {
