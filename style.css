@@ -125,16 +125,6 @@ section {
     display: flex;
 }
 
-.job-title { 
-    color: #093a52;
-    text-align: left;
-}
-
-.name { 
-    color: #29789c;
-    text-align: left;
-}
-
 .tech-stack {
     color: #194a61;
     display: inline-block;
@@ -169,20 +159,14 @@ section {
     background-color: white;
 }
 
-.home{
+.blurb{
     width: 500px;
+    font-size: 1.5em;
     text-align: center;
-    background-color: #194a61;
-    padding: 1vh 1vw;
-    border-radius: 30px;
-    margin: 1vh 5vw;
 }
 
-.home-blurb{
-    font-size: 1.5em;
-    background-color: #ABCDEF;
-    padding: 1vh 1vw;
-    border-radius: 30px;
+.blurb a{
+    color: rgb(206, 23, 23);
 }
 
 #projects {
@@ -342,14 +326,6 @@ form input {
         margin: 0 0 0 15px;
     }
 
-    .job-title {
-        font-size: 50px;
-    }
-
-    .name {
-        font-size: 90px;
-    }
-
     .tech-stack {
         font-size: 12px;
     }
@@ -370,16 +346,6 @@ form input {
 
     .profile-pic img {
         width: 280px;
-    }
-
-    .job-title {
-        text-align: center;
-        font-size: 32px;
-    }
-
-    .name {
-        text-align: center;
-        font-size: 64px;
     }
     
     .tech-stack {
