@@ -123,6 +123,10 @@ section {
 
 .about {
     display: flex;
+    background-color: rgb(216, 213, 213);
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid darkgray;
 }
 
 .tech-stack {
@@ -319,7 +323,7 @@ form input {
         width: 250px;
     }
 
-    .title {
+    .about_info {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -346,6 +350,11 @@ form input {
 
     .profile-pic img {
         width: 280px;
+    }
+
+    .blurb {
+        margin: 1vh auto;
+        width: 400px;
     }
     
     .tech-stack {
