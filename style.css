@@ -121,7 +121,7 @@ section {
     justify-content: center;
 }
 
-.home {
+.about {
     display: flex;
 }
 
@@ -169,7 +169,7 @@ section {
     background-color: white;
 }
 
-.about{
+.home{
     width: 500px;
     text-align: center;
     background-color: #194a61;
@@ -178,7 +178,7 @@ section {
     margin: 1vh 5vw;
 }
 
-.about-blurb{
+.home-blurb{
     font-size: 1.5em;
     background-color: #ABCDEF;
     padding: 1vh 1vw;
@@ -242,7 +242,7 @@ section {
 }
 
 .dropdown h4 {
-    padding: 1vh 1vw;
+    padding: 15px 10px;
 }
 
 .info_bar{
@@ -360,7 +360,7 @@ form input {
 }
 
 @media only screen and (max-width: 1200px){
-    .home {
+    .about {
         display: block;
     }
 
