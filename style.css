@@ -121,6 +121,18 @@ section {
     justify-content: center;
 }
 
+.home {
+    text-align: center;
+}
+
+.my_name {
+    font-size: 96px;
+}
+
+.title {
+    font-size: 48px;
+}
+
 .about {
     display: flex;
     background-color: rgb(216, 213, 213);
