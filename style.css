@@ -19,16 +19,13 @@ body::-webkit-scrollbar {
 .loading{
     z-index: 10;
     background-color: navy;
-    height: 100vh;
+    height: 100%;
+    overflow: hidden;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 100px;
-}
-
-#content{
-    display: none;
 }
 
 ul {
