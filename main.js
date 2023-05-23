@@ -1,10 +1,17 @@
-(() => {
-    window.addEventListener("click", clickFunctions);
+(() => {    
+    loading();
     typewriter();
 
+    window.addEventListener("click", clickFunctions);
+
+    function loading(){
+        setTimeout(function loading(){
+            document.getElementById("loading").style.display = "none"
+        }, 1000)
+    }
+
     function typewriter(){
-        let title = document.getElementById("title").innerHTML;
-        let jobs = ["Software Developer", "World Traveler", "Geography Nerd"]
+        let jobs = ["World Traveler", "Geography Nerd", "Software Developer"]
         let currentLetter = 0;
         let currentJob = 0;
         let pause = 7; // intervals
