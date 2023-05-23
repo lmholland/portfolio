@@ -7,7 +7,7 @@
     function loading(){
         setTimeout(function loading(){
             document.getElementById("loading").style.display = "none";
-            document.getElementById("side-info").style.display = "block"
+            document.getElementById("content").style.display = "unset"
         }, 1000)
     }
 
