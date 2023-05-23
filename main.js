@@ -7,8 +7,10 @@
         let jobs = ["Software Developer", "World Traveler", "Geography Nerd"]
         let currentLetter = 0;
         let currentJob = 0;
+        let pause = 7; // intervals
+
         setInterval(function typewriter(){
-            if(jobs[currentJob].length == currentLetter){
+            if(jobs[currentJob].length + pause == currentLetter){
                 if(currentJob == jobs.length-1){
                     currentJob = 0;
                 } else {
@@ -16,7 +18,7 @@
                 }
                 currentLetter = 0;
             }
-            currentLetter+=1;
+            currentLetter += 1;
             let jobLength = jobs[currentJob].length;
             let partial = jobs[currentJob].slice(0, jobLength-(jobLength-currentLetter))
             document.getElementById("title").innerHTML = partial
