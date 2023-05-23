@@ -6,7 +6,8 @@
 
     function loading(){
         setTimeout(function loading(){
-            document.getElementById("loading").style.display = "none"
+            document.getElementById("loading").style.display = "none";
+            document.getElementById("side-info").style.display = "block"
         }, 1000)
     }
 
