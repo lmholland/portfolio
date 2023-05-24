@@ -4,7 +4,7 @@
     window.addEventListener("click", clickFunctions);
 
     function typewriter(){
-        let jobs = ["World Traveler", "Geography Nerd", "Software Developer"]
+        let jobs = ["World Traveler", "Geography Nerd", "Software Developer", "Based in Seoul, South Korea",]
         let currentLetter = 0;
         let currentJob = 0;
         let pause = 7; // intervals
