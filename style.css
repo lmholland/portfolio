@@ -157,7 +157,7 @@ section {
 
 .about {
     display: flex;
-    padding: 15vh 0 0;
+    padding: 15vh 0 0 0;
     justify-content: center;
 }
 
@@ -168,9 +168,9 @@ section {
 
 .tech-unit {
     color: white;
-    text-shadow: 0 0 1px black, 0 0 3px black, 0 0 2px black, 0 0 1px black;
+    text-shadow: 0 0 3px black, 0 0 2px black, 0 0 1px black;
     text-align: center;
-    padding: 10px 5px 0;
+    padding: 10px 3px 0;
     display: inline-block;
 }
 
@@ -181,8 +181,8 @@ section {
 }
 
 .tech-unit h2{
-    font-size: 12px;
-    padding: 10px;
+    font-size: 14px;
+    padding: 11px;
 }
 
 .profile-pic img {
@@ -212,7 +212,7 @@ section {
 }
 
 .projects {
-    margin: 20vh 10vw 0;
+    margin: 15vh 10vw 0;
     width: 80vw;
     text-align: center;
 }
@@ -352,7 +352,7 @@ form input {
     display:block
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1212px) {
     .profile-pic img {
         width: 250px;
     }
@@ -373,7 +373,7 @@ form input {
     }
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1211px){
     #about {
         height: 120vh;
     }
