@@ -374,6 +374,10 @@ form input {
 }
 
 @media only screen and (max-width: 1200px){
+    #about {
+        height: 120vh;
+    }
+
     .about {
         display: block;
     }
@@ -383,6 +387,7 @@ form input {
     }
 
     .profile-pic img {
+        padding: 0;
         width: 280px;
     }
 
@@ -392,8 +397,10 @@ form input {
     }
     
     .tech-stack {
-        text-align: center;
-        font-size: 12px;
+        display: flex;
+        font-size: 10px;
+        justify-content: center;
+        align-items:baseline;
     }
 
     .tech-stack img {
