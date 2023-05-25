@@ -380,6 +380,7 @@ form input {
 
     .about {
         display: block;
+        padding: 0;
     }
 
     .profile-pic {
@@ -387,7 +388,7 @@ form input {
     }
 
     .profile-pic img {
-        padding: 0;
+        margin: 10vh 0 0;
         width: 280px;
     }
 
@@ -400,7 +401,7 @@ form input {
         display: flex;
         font-size: 10px;
         justify-content: center;
-        align-items:baseline;
+        align-items: baseline;
     }
 
     .tech-stack img {
