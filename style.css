@@ -11,8 +11,8 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #013A6B;
     background-image: -webkit-linear-gradient(20deg, #b6b8b9 50%, #e4ebf3 50%);
+    color: #093a52;
     margin: 0;
     overflow-x: hidden;
     -ms-overflow-style: none;  /* IE and Edge */
@@ -144,20 +144,25 @@ section {
     width: 100px;
 }
 
-.about {
-    display: flex;
-    background-color: rgb(238, 238, 238);
-    padding: 10px;
-    border-radius: 30px;
-    border: 1px solid darkgray;
-}
-
 #about {
+    display: block;
     background-color: white;
 }
 
+.about_title {
+    padding: 10vh 0 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    padding: 15vh 0 0;
+    justify-content: center;
+}
+
 .tech-stack {
-    color: #194a61;
+    color: #093a52;
     display: inline-block;
 }
 
@@ -201,7 +206,7 @@ section {
 }
 
 .projects_title {
-    font-size: 86px;
+    font-size: 65px;
     margin: 10vh 0 0;
     text-align: center;
 }
@@ -249,7 +254,7 @@ section {
 
 .dropdown-content a:hover {
     background-color: #f5f2f2;
-    color:#013A6B;
+    color:#093a52;
 }
 
 .dropdown:hover .dropdown-content {
@@ -403,7 +408,7 @@ form input {
         top: 2vh;
         right: 2vw;
         font-size: 3em;
-        color: darkblue;
+        color: #093a52;
     }
 
     .hamburger:hover {
