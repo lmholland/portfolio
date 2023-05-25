@@ -140,7 +140,7 @@ section {
 .about {
     display: flex;
     background-color: rgb(238, 238, 238);
-    padding: 30px;
+    padding: 10px;
     border-radius: 30px;
     border: 1px solid darkgray;
 }
@@ -190,12 +190,19 @@ section {
 }
 
 #projects {
-    margin: 10vh;
+    display: block;
+}
+
+.projects_title {
+    font-size: 86px;
+    font-family: Roboto;
+    margin: 10vh 0 0;
+    text-align: center;
 }
 
 .projects {
-    margin: 10vw;
-    width: 100vw;
+    margin: 10vh 10vw;
+    width: 80vw;
     text-align: center;
 }
 
@@ -334,7 +341,7 @@ form input {
     display:block
 }
 
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1200px) {
     .profile-pic img {
         width: 250px;
     }
@@ -381,13 +388,9 @@ form input {
     .tech-stack img {
         width: 32px;
     }
-
-    #projects {
-        height: 140vh;
-    }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 805px) {
     .hamburger {
         display: block;
         position: absolute;
@@ -481,5 +484,9 @@ form input {
     h3 {
         font-size: 16px;
         margin: 0;
+    }
+
+    #projects {
+        height: 170vh;
     }
 }
