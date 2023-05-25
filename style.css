@@ -1,9 +1,16 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/roboto.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #013A6B;
     background-image: -webkit-linear-gradient(20deg, #b6b8b9 50%, #e4ebf3 50%);
     margin: 0;
@@ -195,7 +202,6 @@ section {
 
 .projects_title {
     font-size: 86px;
-    font-family: Roboto;
     margin: 10vh 0 0;
     text-align: center;
 }
