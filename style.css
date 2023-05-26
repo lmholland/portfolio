@@ -15,8 +15,8 @@ body {
     color: #093a52;
     margin: 0;
     overflow-x: hidden;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
@@ -437,10 +437,12 @@ form input {
 
     .menu {
         display: block;
+        position: fixed;
         height: 100vh;
-        background-color: rgb(212, 239, 248);
+        background-color: #e4ebf3;
         border: 1px solid black;
         width: 50vw;
+        z-index: 2;
     }
 
     a:hover {
@@ -449,45 +451,52 @@ form input {
 
     #toggle:checked ~ .close-menu-btn {
         display: block;
-        position: absolute;
+        position: fixed;
         color: red;
         right: 10px;
         top: 1vh;
         font-size: 2em;
+        z-index: 2;
     }
 
     #toggle:checked ~ .close-menu-btn:hover {
         color: orange;
     }
 
+    .side-info{
+        z-index: 2;
+    }
+
     .menu-list {
         display: grid;
+        position: unset;
         height: 80vh;
-        margin-top: 20vh;
+        margin-top: 30vh;
         width: 50vw;
         text-align: center;
         grid-auto-rows: 10vh;
-        position: unset;
     }
 
     .socials {
-        text-align: center;
         display: block;
+        position: fixed;
+        text-align: center;
         font-size: 1em;
         padding: 0;
         width: 50vw;
         left: 50vw;
-        bottom: 15px;
+        bottom: 5vh;
     }
 
     .email {
         text-align: center;
         font-size: 0.5em;
         display: block;
+        position: fixed;
         writing-mode: unset;
         width: 50vw;
         left: 50vw;   
-        bottom: 0px; 
+        bottom: 2vh; 
     }
 
     h1 {
