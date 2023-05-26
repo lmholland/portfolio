@@ -237,7 +237,7 @@ section {
     border: 1px solid black;
     background-color: white;
     width: 100%;
-    height: 300px;
+    height: 290px;
     z-index: 1;
 }
 
@@ -269,6 +269,18 @@ section {
 
 .link{
     text-decoration: underline;
+}
+
+.dropdown-content .dropdown_github{
+    border-radius: 30px;
+}
+
+.dropdown-content .dropdown_github:hover{
+    background-color: white;
+}
+
+.dropdown-content .dropdown_github img{
+    border: none;
 }
 
 .info_bar{
