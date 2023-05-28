@@ -202,6 +202,11 @@ section {
     color: rgb(206, 23, 23);
 }
 
+.blurb a:hover{
+    color: rgb(206, 142, 23);
+}
+
+
 #projects {
     display: block;
 }
