@@ -10,8 +10,6 @@
         let pause = 15; // intervals
         let blinks = 0;
         let blinker = document.createElement("span");
-
-        blinker.setAttribute("opacity", "1");
         blinker.innerHTML = "|"
 
         setInterval(function typewriter(){
@@ -35,6 +33,8 @@
             } else {
                 blinker.style.opacity = 0;
             }
+
+            blinker.style.verticalAlign = "5px";
 
             let jobLength = jobs[currentJob].length;
             let partial = jobs[currentJob].slice(0, jobLength-(jobLength-currentLetter));
