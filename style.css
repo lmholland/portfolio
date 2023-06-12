@@ -601,3 +601,50 @@ form input {
         height: 150vh;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    #home{
+        height: 190vw;
+    }
+
+    .menu{
+        height: 189vw;
+    }
+
+    #toggle:checked ~ .close-menu-btn {
+        font-size: 6.5vw;
+    }
+
+    .menu-list {
+        height: 80vh;
+        margin-top: 58vw;
+        grid-auto-rows: 20vw;
+    }
+
+    .hamburger{
+        font-size: 10vw;
+        margin: 0;
+    }
+
+    .my_name{
+        font-size: 19vw;
+        word-wrap: break-word;
+    }
+
+    .title{
+        font-size: 9vw;
+    }
+
+    #blinker{
+        font-size: 9vw;
+        vertical-align: -5vh;
+    }
+
+    .menu-links{
+        font-size: 6vw;
+    }
+
+    #email-link{
+        font-size: 3.2vw;
+    }
+}
