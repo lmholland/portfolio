@@ -402,12 +402,21 @@ form input {
 }
 
 @media only screen and (min-width: 1617px) {
+    #about {
+        height: 90vh;
+    }
+
     #projects{
         height: 80vh;
     }
+
 }
 
 @media only screen and (max-width: 1616px) {
+    #about {
+        height: 90vh;
+    }
+
     #projects{
         height: 100vh;
     }
@@ -436,12 +445,13 @@ form input {
 
 @media only screen and (max-width: 1211px){
     #about {
-        height: 120vh;
+        height: 130vh;
     }
 
     .about {
         display: block;
         padding: 0;
+        height: 100vh;
     }
 
     .profile-pic {
@@ -457,16 +467,16 @@ form input {
         margin: 1vh auto;
         width: 400px;
     }
+
+    #projects{
+        height: 100vh;
+    }
     
     .tech-stack {
         display: flex;
         font-size: 10px;
         justify-content: center;
         align-items: baseline;
-    }
-
-    #projects{
-        height: 100vh;
     }
 
     .tech-stack img {
@@ -581,6 +591,10 @@ form input {
     h3 {
         font-size: 16px;
         margin: 0;
+    }
+
+    #about {
+        height: 130vh;
     }
 
     #projects {
