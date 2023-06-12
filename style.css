@@ -162,6 +162,14 @@ section {
     justify-content: center;
 }
 
+.skills_title {
+    font-size: 30px;
+    margin: 0;
+    padding: 10vh 0 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
 .skills{
     display: flex;
     justify-content: center;
@@ -171,7 +179,6 @@ section {
 .tech-stack {
     color: #093a52;
     display: inline-block;
-    margin-top: 150px;
 }
 
 .tech-unit {
