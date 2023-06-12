@@ -209,6 +209,7 @@ section {
 
 #projects {
     display: block;
+    height: 80vh;
 }
 
 .projects_title {
@@ -386,6 +387,18 @@ form input {
     display:block
 }
 
+@media only screen and (min-width: 1617px) {
+    #projects{
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 1616px) {
+    #projects{
+        height: 100vh;
+    }
+}
+
 @media only screen and (min-width: 1212px) {
     .profile-pic img {
         width: 250px;
@@ -439,7 +452,7 @@ form input {
     }
 
     #projects{
-        height: 140vh;
+        height: 100vh;
     }
 
     .tech-stack img {
@@ -557,6 +570,6 @@ form input {
     }
 
     #projects {
-        height: 190vh;
+        height: 150vh;
     }
 }
