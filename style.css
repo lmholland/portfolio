@@ -162,9 +162,16 @@ section {
     justify-content: center;
 }
 
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .tech-stack {
     color: #093a52;
     display: inline-block;
+    margin-top: 150px;
 }
 
 .tech-unit {
@@ -177,7 +184,7 @@ section {
 
 .tech-unit img {
     width: 3vw;
-    padding: 0 15px 0;
+    padding: 0 10px 0;
     vertical-align: text-bottom;
 }
 
