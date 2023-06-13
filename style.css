@@ -608,22 +608,20 @@ form input {
     }
 
     .menu{
-        height: 189vw;
+        height: 100vh;
     }
 
     #toggle:checked ~ .close-menu-btn {
-        font-size: 6.5vw;
+        font-size: 6vw;
     }
 
     .menu-list {
-        height: 80vh;
-        margin-top: 58vw;
-        grid-auto-rows: 20vw;
+        margin-top: 30vh;
+        grid-auto-rows: 10vh;
     }
 
     .hamburger{
-        font-size: 10vw;
-        margin: 0;
+        font-size: 9.6vw;
     }
 
     .menu-links{
@@ -631,30 +629,32 @@ form input {
     }
 
     .socials {
-        right: 10px;
-        bottom: unset;
-        top: 149vw;
+        bottom: 35px;
     }
 
     .socials img{
         width: 10vw;
     }
 
+    /* .email{
+        top: 170vw;
+        bottom: unset;
+    } */
+
     #email-link{
         font-size: 3.2vw;
     }
 
     .my_name{
-        font-size: 19vw;
-        word-wrap: break-word;
+        font-size: 19.2vw;
     }
 
     .title{
-        font-size: 9vw;
+        font-size: 9.5vw;
     }
 
     #blinker{
         font-size: 9vw;
-        vertical-align: -5vh;
+        /* vertical-align: -5vh; */
     }
 }
