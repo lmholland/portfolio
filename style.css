@@ -626,6 +626,24 @@ form input {
         margin: 0;
     }
 
+    .menu-links{
+        font-size: 6vw;
+    }
+
+    .socials {
+        right: 10px;
+        bottom: unset;
+        top: 149vw;
+    }
+
+    .socials img{
+        width: 10vw;
+    }
+
+    #email-link{
+        font-size: 3.2vw;
+    }
+
     .my_name{
         font-size: 19vw;
         word-wrap: break-word;
@@ -638,13 +656,5 @@ form input {
     #blinker{
         font-size: 9vw;
         vertical-align: -5vh;
-    }
-
-    .menu-links{
-        font-size: 6vw;
-    }
-
-    #email-link{
-        font-size: 3.2vw;
     }
 }
