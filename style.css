@@ -594,11 +594,11 @@ form input {
     }
 
     #about {
-        height: 130%;
+        height: auto;
     }
 
     #projects {
-        height: 150%;
+        height: auto;
     }
 
     .tech-stack {
