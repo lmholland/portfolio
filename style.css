@@ -604,6 +604,7 @@ form input {
 
     .tech-stack {
         display: inline-block;
+        width: 80vw;
         text-align: center;
     }
 
