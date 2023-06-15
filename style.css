@@ -186,7 +186,7 @@ section {
     text-shadow: 0 0 3px black, 0 0 2px black, 0 0 1px black;
     text-align: center;
     padding: 10px 2px 0;
-    display: inline-block;
+    display: inline-flex;
 }
 
 .tech-unit img {
