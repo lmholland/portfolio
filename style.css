@@ -180,7 +180,7 @@ section {
     color: #093a52;
     display: inline-block;
     width: 80vw;
-    padding: 10vw 0;
+    padding: 0 10vw;
 }
 
 .tech-unit {
