@@ -636,11 +636,6 @@ form input {
         width: 10vw;
     }
 
-    /* .email{
-        top: 170vw;
-        bottom: unset;
-    } */
-
     #email-link{
         font-size: 3.2vw;
     }
@@ -655,6 +650,5 @@ form input {
 
     #blinker{
         font-size: 9vw;
-        /* vertical-align: -5vh; */
     }
 }
