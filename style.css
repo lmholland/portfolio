@@ -477,6 +477,8 @@ form input {
         font-size: 10px;
         justify-content: center;
         align-items: baseline;
+        width: 80vw;
+        text-align: center;
     }
 
     .tech-stack img {
@@ -604,8 +606,6 @@ form input {
 
     .tech-stack {
         display: inline-block;
-        width: 80vw;
-        text-align: center;
     }
 
     .tech-stack img {
