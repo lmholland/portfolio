@@ -179,6 +179,7 @@ section {
 .tech-stack {
     color: #093a52;
     display: inline-block;
+    width: 80vw;
 }
 
 .tech-unit {
@@ -477,7 +478,6 @@ form input {
         font-size: 10px;
         justify-content: center;
         align-items: baseline;
-        width: 80vw;
         text-align: center;
     }
 
