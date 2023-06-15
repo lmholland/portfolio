@@ -187,7 +187,7 @@ section {
     color: white;
     text-shadow: 0 0 3px black, 0 0 2px black, 0 0 1px black;
     text-align: center;
-    padding: 10px 1px 0;
+    padding: 10px auto 0;
     display: inline-block;
 }
 
@@ -594,12 +594,11 @@ form input {
     }
 
     #about {
-        height: 130vh;
-        width: 100vw;
+        height: 130%;
     }
 
     #projects {
-        height: 150vh;
+        height: 150%;
     }
 
     .tech-stack {
