@@ -594,6 +594,7 @@ form input {
 
     #about {
         height: 130vh;
+        width: 50vw;
     }
 
     #projects {
