@@ -453,7 +453,7 @@ form input {
     .about {
         display: block;
         padding: 0;
-        height: 100vh;
+        height: 100%;
     }
 
     .profile-pic {
@@ -468,6 +468,7 @@ form input {
     .blurb {
         margin: 1vh auto;
         width: 400px;
+        height: 100%;
     }
 
     #projects{
