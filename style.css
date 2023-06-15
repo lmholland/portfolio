@@ -593,14 +593,6 @@ form input {
         margin: 0;
     }
 
-    #about {
-        height: auto;
-    }
-
-    #projects {
-        height: auto;
-    }
-
     .tech-stack {
         display: inline-block;
     }
@@ -611,14 +603,6 @@ form input {
 }
 
 @media only screen and (max-width: 500px) {
-    #home{
-        height: 190vw;
-    }
-
-    .menu{
-        height: 100vh;
-    }
-
     #toggle:checked ~ .close-menu-btn {
         font-size: 6vw;
     }
