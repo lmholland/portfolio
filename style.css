@@ -14,11 +14,8 @@ body {
     background-image: -webkit-linear-gradient(20deg, #b6b8b9 50%, #e4ebf3 50%);
     color: #093a52;
     margin: 0;
-}
-
-#body-wrapper{
+    position: relative;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -149,7 +146,6 @@ section {
 #about {
     display: block;
     background-color: white;
-    width: 120vw;
 }
 
 .about_title {
