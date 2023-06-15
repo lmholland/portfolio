@@ -20,6 +20,7 @@ body {
     color: #093a52;
     position: relative;
     overflow-x: hidden;
+    width: 100%;
 }
 
 body::-webkit-scrollbar {
