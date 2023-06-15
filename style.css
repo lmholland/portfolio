@@ -186,7 +186,7 @@ section {
     text-shadow: 0 0 3px black, 0 0 2px black, 0 0 1px black;
     text-align: center;
     padding: 10px 2px 0;
-    display: inline-flex;
+    display: inline-block;
 }
 
 .tech-unit img {
@@ -600,6 +600,15 @@ form input {
 
     #projects {
         height: 150vh;
+    }
+
+    .tech-stack {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .tech-stack img {
+        width: 24px;
     }
 }
 
