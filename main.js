@@ -50,8 +50,11 @@
     }
 
     function clickMenuLink(id){
-        document.getElementById(id).onclick = function() {
-            document.getElementById('toggle').checked = false;
+        try{
+            document.getElementById(id).onclick = function() {
+                document.getElementById('toggle').checked = false;
+            }
+        } catch(err){
         }
     }
     
