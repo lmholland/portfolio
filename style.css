@@ -151,7 +151,8 @@ section {
 
 .about {
     display: flex;
-    padding: 15vh 0 0 0;
+    font-size: 15px;
+    padding: 10vh 0 0 0;
     justify-content: center;
 }
 
@@ -199,6 +200,7 @@ section {
     width: 20vw;
     border-radius: 30px;
     border: 2px solid grey;
+    margin: 10% 0;
 }
 
 .blurb{
