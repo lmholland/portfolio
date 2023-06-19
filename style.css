@@ -22,7 +22,32 @@ body {
     overflow-x: hidden;
     -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
     scrollbar-width: none;  /* Hide scrollbar for Firefox */
-    width: 100%;
+}
+
+h1 {
+    font-size: 6.2vw;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 4vw;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 0;
+    font-weight: 100;
+}
+
+h5 {
+    font-size: 0.7em;
+    margin: 0;
 }
 
 .green{
@@ -110,11 +135,14 @@ a:hover {
 }
 
 section {
-    height: 100vh;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#home {
+    height: 1000px;
 }
 
 .my_name {
@@ -134,12 +162,13 @@ section {
 }
 
 #about {
+    height: 950px;
     display: block;
     background-color: white;
 }
 
 .about_title {
-    padding: 10vh 0 0;
+    padding: 100px 0;
     font-size: 55px;
     text-align: center;
     text-decoration: underline;
@@ -148,56 +177,18 @@ section {
 .about {
     display: flex;
     font-size: 15px;
-    padding: 10vh 0 0 0;
     justify-content: center;
 }
 
-.skills_title {
-    font-size: 30px;
-    margin: 0;
-    padding: 10vh 0 0;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.skills{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tech-stack {
-    color: #093a52;
+.profile-pic {
     display: inline-block;
-    width: 100%;
-    text-align: center;
-    padding: 15px 15%;
-}
-
-.tech-unit {
-    color: white;
-    text-shadow: 0 0 3px black, 0 0 2px black, 0 0 1px black;
-    text-align: center;
-    padding: 5px auto 0;
-    display: inline-block;
-}
-
-.tech-unit img {
-    width: 3vw;
-    padding: 0 5px 0;
-    vertical-align: text-bottom;
-}
-
-.tech-unit h2{
-    font-size: 14px;
-    padding: 11px;
+    padding: 30px 0;
 }
 
 .profile-pic img {
-    width: 20vw;
+    width: 250px;
     border-radius: 30px;
     border: 2px solid grey;
-    margin: 10% 0;
 }
 
 #blurb {
@@ -214,20 +205,31 @@ section {
     color: rgb(206, 142, 23);
 }
 
+.location {
+    padding: 100px 0 20px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.city {
+    font-size: 1.5em;
+    text-align: center;
+}
+
 #projects {
     display: block;
-    height: 80vh;
 }
 
 .projects_title {
     font-size: 55px;
-    margin: 10vh 0 0;
+    padding: 100px 0;
     text-align: center;
     text-decoration: underline;
 }
 
 .projects {
-    margin: 15vh 10vw 0;
+    margin: 0 auto 0;
     width: 80vw;
     text-align: center;
 }
@@ -305,35 +307,49 @@ section {
     border-bottom: 1px solid gray;
 }
 
-h1 {
-    font-size: 6.2vw;
-    margin: 5px;
+.skills_title {
+    font-size: 30px;
+    margin: 0;
+    padding: 100px 0 0;
+    text-align: center;
+    text-decoration: underline;
 }
 
-h2 {
-    font-size: 4vw;
-    margin: 0;
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h3 {
-    font-size: 1.5em;
-    margin: 0;
+.tech-stack {
+    color: #093a52;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 15%;
 }
 
-h4 {
-    font-size: 1em;
-    margin: 0;
-    font-weight: 100;
+.tech-unit {
+    color: white;
+    text-shadow: 0 0 3px black, 0 0 2px black, 0 0 1px black;
+    text-align: center;
+    padding: 5px auto 0;
+    display: inline-block;
 }
 
-h5 {
-    font-size: 0.7em;
-    margin: 0;
+.tech-unit img {
+    width: 3vw;
+    padding: 0 5px 0;
+    vertical-align: text-bottom;
+}
+
+.tech-unit h2{
+    font-size: 14px;
+    padding: 11px;
 }
 
 .contact{
     width: 100%;
-    height: 100vh;
     background: white;
     display: block;
     align-items:center;
@@ -342,7 +358,7 @@ h5 {
 
 .contact_title {
     font-size: 55px;
-    padding: 10vh 0 0;
+    padding: 100px 0;
     text-align: center;
     text-decoration: underline;
 }
@@ -351,8 +367,9 @@ form {
     background: lightgray;
     display: flex;
     flex-direction: column;
-    padding: 2vh 2vw;
-    margin: 10vh 20vw;
+    padding: 50px 50px;
+    width: 700px;
+    margin: 0 auto 100px;
     border-radius: 10px;
     border: 1px solid darkgray;
 }
@@ -395,31 +412,18 @@ form input {
 }
 
 @media only screen and (min-width: 1617px) {
-    #about {
-        height: 90vh;
+    #projects {
+        height: 800px;
     }
-
-    #projects{
-        height: 80vh;
-    }
-
 }
 
 @media only screen and (max-width: 1616px) {
-    #about {
-        height: 90vh;
-    }
-
-    #projects{
-        height: 100vh;
+    #projects {
+        height: 1000px;
     }
 }
 
 @media only screen and (min-width: 1212px) {
-    .profile-pic img {
-        width: 250px;
-    }
-
     .about_info {
         display: flex;
         flex-direction: column;
@@ -438,32 +442,43 @@ form input {
 
 @media only screen and (max-width: 1211px){
     #about {
-        height: 130vh;
+        height: 1100px;
     }
 
     .about {
         display: block;
         padding: 0;
-        height: 100%;
+    }
+
+    .about_title {
+        padding: 50px 0 30px;
     }
 
     .profile-pic {
+        display: block;
         text-align: center;
     }
 
     .profile-pic img {
-        margin: 10vh 0 0;
-        width: 280px;
+        margin: 0 0 20px;
+        width: 250px;
     }
 
     #blurb {
-        margin: 10px auto;
-        width: 400px;
-        height: 100%;
+        margin: 0 auto;
+        width: 600px;
     }
 
-    #projects{
-        height: 100vh;
+    .location {
+        padding: 70px 0 20px;
+    }
+
+    #projects {
+        height: 950px;
+    }
+
+    .projects_title {
+        padding: 70px 0;
     }
     
     .tech-stack {
@@ -475,7 +490,8 @@ form input {
     }
 
     form {
-        margin: 10vh 10vw;
+        width: 500px;
+        padding: 30px; 
     }
 }
 
@@ -483,8 +499,8 @@ form input {
     .hamburger {
         display: block;
         position: absolute;
-        top: 2vh;
-        right: 2vw;
+        top: 20px;
+        right: 20px;
         font-size: 3em;
         color: #093a52;
     }
@@ -508,10 +524,10 @@ form input {
     .menu {
         display: block;
         position: fixed;
-        height: 100vh;
         background-color: #e4ebf3;
         border: 1px solid black;
-        width: 50vw;
+        height: 1000px;
+        width: 300px;
         z-index: 2;
     }
 
@@ -523,9 +539,9 @@ form input {
         display: block;
         position: fixed;
         color: red;
-        right: 10px;
-        top: 1vh;
-        font-size: 2em;
+        right: 22px;
+        top: 22px;
+        font-size: 3.5em;
         z-index: 2;
     }
 
@@ -540,11 +556,9 @@ form input {
     .menu-list {
         display: grid;
         position: unset;
-        height: 80vh;
-        margin-top: 30vh;
-        width: 50vw;
         text-align: center;
-        grid-auto-rows: 10vh;
+        padding-top: 250px;
+        row-gap:  100px;
     }
 
     .socials {
@@ -552,20 +566,20 @@ form input {
         position: fixed;
         text-align: center;
         font-size: 1em;
-        padding: 0;
-        left: 50vw;
-        bottom: 5vh;
+        width: 260px;
+        padding: 0 10px;
+        bottom: 50px;
     }
 
     .email {
-        text-align: center;
-        font-size: 0.5em;
         display: block;
         position: fixed;
+        text-align: center;
+        font-size: 0.5em;
         writing-mode: unset;
-        width: 50vw;
-        left: 50vw;   
-        bottom: 2vh; 
+        width: 260px;
+        padding: 0 10px;
+        bottom: 20px; 
     }
 
     h1 {
@@ -583,8 +597,16 @@ form input {
         margin: 0;
     }
 
-    #projects{
-        height: 150vh;
+    #about {
+        height: 1300px;
+    }
+
+    #blurb {
+        width: 450px;
+    }
+
+    #projects {
+        height: 1400px;
     }
 
     .tech-stack {
@@ -596,7 +618,7 @@ form input {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     #toggle:checked ~ .close-menu-btn {
         font-size: 6vw;
     }
@@ -624,6 +646,10 @@ form input {
 
     #email-link{
         font-size: 3.2vw;
+    }
+
+    #home{
+        height: 500px;
     }
 
     .my_name{
