@@ -429,9 +429,7 @@ form input {
     #projects {
         height: 1000px;
     }
-}
 
-@media screen and (min-width: 1212px) {
     .about_info {
         display: flex;
         flex-direction: column;
@@ -495,6 +493,10 @@ form input {
 
     .tech-stack img {
         width: 32px;
+    }
+
+    .contact_title{
+        padding: 70px 0;
     }
 
     form {
@@ -606,7 +608,7 @@ form input {
     }
 
     #about {
-        height: 1300px;
+        height: 1250px;
     }
 
     #blurb {
@@ -645,7 +647,7 @@ form input {
     }
 
     #about {
-        height: 1200px;
+        height: 1100px;
     }
 
     .about_title {
