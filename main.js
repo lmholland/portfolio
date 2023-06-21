@@ -4,7 +4,17 @@
     window.addEventListener("click", clickFunctions);
 
     function typewriter(){
-        let jobs = ["Geography Nerd", "Liker of Dogs", "Software Programmer", "Audiobook Addict", "World Traveler", "Front-end Developer", "Puzzle Solver", "Coffee Enthusiast", "Computer Engineer"]
+        let jobs = [
+            "Geography Nerd", 
+            "Liker of Dogs", 
+            "Software Programmer", 
+            "Audiobook Addict", 
+            "World Traveler", 
+            "Website Developer", 
+            "Puzzle Solver", 
+            "Coffee Enthusiast", 
+            "Computer Engineer"
+        ];
         let currentLetter = 0;
         let currentJob = 0;
         let pause = 15; // intervals
@@ -12,6 +22,7 @@
         let blinker = document.createElement("span");
         blinker.id = "blinker";
         blinker.innerHTML = "|"
+        blinker.style.fontSize = "60px";
 
         setInterval(function typewriter(){
             if(jobs[currentJob].length + pause == currentLetter){
@@ -28,15 +39,13 @@
 
             if(blinks > 6){
                 blinker.style.opacity = 1;
-                if(blinks > 9){
+                if(blinks > 12){
                     blinks = 0;
                 }
             } else {
                 blinker.style.opacity = 0;
             }
-
-            blinker.style.verticalAlign = "5px";
-
+            
             let jobLength = jobs[currentJob].length;
             let partial = jobs[currentJob].slice(0, jobLength-(jobLength-currentLetter));
             document.getElementById("title").innerHTML = partial;
