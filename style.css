@@ -504,6 +504,10 @@ form input {
 }
 
 @media only screen and (max-width: 805px) {
+    .my_name {
+        color: turquoise;
+    }
+
     .hamburger {
         display: block;
         position: absolute;
@@ -627,6 +631,11 @@ form input {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .my_name {
+        color: green;
+    }
+
     #home{
         height: 1000px;
     }
