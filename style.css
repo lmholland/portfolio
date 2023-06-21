@@ -419,19 +419,19 @@ form input {
     display:block
 }
 
-@media only screen and (min-width: 1617px) {
+@media screen and (min-width: 1617px) {
     #projects {
         height: 800px;
     }
 }
 
-@media only screen and (max-width: 1616px) {
+@media screen and (max-width: 1616px) {
     #projects {
         height: 1000px;
     }
 }
 
-@media only screen and (min-width: 1212px) {
+@media screen and (min-width: 1212px) {
     .about_info {
         display: flex;
         flex-direction: column;
@@ -448,7 +448,7 @@ form input {
     }
 }
 
-@media only screen and (max-width: 1211px){
+@media screen and (max-width: 1211px){
     #about {
         height: 1100px;
     }
@@ -503,11 +503,7 @@ form input {
     }
 }
 
-@media only screen and (max-width: 805px) {
-    .my_name {
-        color: white;
-    }
-
+@media screen and (max-width: 805px) {
     .hamburger {
         display: block;
         position: absolute;
@@ -630,12 +626,7 @@ form input {
     }
 }
 
-@media only screen and (max-width: 600px) {
-
-    .my_name {
-        color: green;
-    }
-
+@media screen and (max-width: 600px) {
     #home{
         height: 1000px;
     }
@@ -693,7 +684,7 @@ form input {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .my_name{
         font-size: 70px;
     }
@@ -804,7 +795,7 @@ form input {
     }
 }
 
-@media only screen and (max-width: 280px) {
+@media screen and (max-width: 280px) {
     .my_name {
         color: red;
     }
