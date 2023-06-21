@@ -420,13 +420,13 @@ form input {
     display:block
 }
 
-@media screen and (min-width: 1617px) {
+@media only screen and (min-width: 1617px) {
     #projects {
         height: 800px;
     }
 }
 
-@media screen and (min-width: 1212px) {
+@media only screen and (min-width: 1212px) {
     #projects {
         height: 1000px;
     }
@@ -447,7 +447,7 @@ form input {
     }
 }
 
-@media screen and (min-width: 806px){
+@media only screen and (min-width: 806px){
     #about {
         height: 1100px;
     }
@@ -506,7 +506,7 @@ form input {
     }
 }
 
-@media screen and (min-width: 601px) {
+@media only screen and (min-width: 601px) {
     .hamburger {
         display: block;
         position: absolute;
@@ -629,7 +629,7 @@ form input {
     }
 }
 
-@media screen and (min-width: 401px) {
+@media only screen and (min-width: 401px) {
     #home{
         height: 1000px;
     }
@@ -687,7 +687,7 @@ form input {
     }
 }
 
-@media screen and (min-width: 281px) {
+@media only screen and (min-width: 281px) {
     .my_name{
         font-size: 70px;
     }
@@ -798,7 +798,7 @@ form input {
     }
 }
 
-@media screen and (max-width: 280px) {
+@media only screen and (max-width: 280px) {
     .my_name {
         color: red;
     }
