@@ -1,8 +1,12 @@
   @font-face{
     font-family: "denyut";
-    src: url("./assets/denyut.woff") format("woff"),
+    src: url("./assets/denyut.woff2") format('woff2'),
+        url("./assets/denyut.woff") format("woff"),
         url("/assets/denyut.tff") format("truetype"),
         url("./assets/denyut.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
   }
 
 html, body {
