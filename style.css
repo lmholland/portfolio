@@ -1,16 +1,8 @@
-@font-face {
-    font-family: "denyutt";
-    src: url("/assets/denyut.tff") format("truetype");
-  }
-
-  @font-face {
-    font-family: "denyutw";
-    src: url("./assets/denyut.woff") format("woff");
-  }
-
-  @font-face {
-    font-family: "denyuto";
-    src: url("./assets/denyut.otf") format("opentype");
+  @font-face{
+    font-family: "denyut";
+    src: url("./assets/denyut.woff") format("woff"),
+        url("/assets/denyut.tff") format("truetype"),
+        url("./assets/denyut.otf") format("opentype");
   }
 
 html, body {
@@ -23,7 +15,7 @@ body::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
 }
 
 body {
-    font-family: "denyutw", "denyutt", "denyuto";
+    font-family: "denyut";
     background-image: -webkit-linear-gradient(20deg, #b6b8b9 50%, #e4ebf3 50%);
     color: #093a52;
     position: relative;
