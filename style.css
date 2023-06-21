@@ -426,7 +426,7 @@ form input {
     }
 }
 
-@media screen and (max-width: 1616px) {
+@media screen and (min-width: 1212px) {
     #projects {
         height: 1000px;
     }
@@ -447,7 +447,7 @@ form input {
     }
 }
 
-@media screen and (max-width: 1211px){
+@media screen and (min-width: 806px){
     #about {
         height: 1100px;
     }
@@ -506,7 +506,7 @@ form input {
     }
 }
 
-@media screen and (max-width: 805px) {
+@media screen and (min-width: 601px) {
     .hamburger {
         display: block;
         position: absolute;
@@ -629,7 +629,7 @@ form input {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 401px) {
     #home{
         height: 1000px;
     }
@@ -687,7 +687,7 @@ form input {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 281px) {
     .my_name{
         font-size: 70px;
     }
