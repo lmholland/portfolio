@@ -8,7 +8,6 @@
 html, body {
     margin: 0;
     padding: 0;
-    min-width: auto;
 }
 
 body::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
@@ -23,32 +22,6 @@ body {
     overflow-x: hidden;
     -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
     scrollbar-width: none;  /* Hide scrollbar for Firefox */
-}
-
-h1 {
-    font-size: 6.2vw;
-    margin: 5px;
-}
-
-h2 {
-    font-size: 4vw;
-    margin: 0;
-}
-
-h3 {
-    font-size: 1.5em;
-    margin: 0;
-}
-
-h4 {
-    font-size: 1em;
-    margin: 0;
-    font-weight: 100;
-}
-
-h5 {
-    font-size: 0.7em;
-    margin: 0;
 }
 
 .green{
@@ -352,11 +325,6 @@ section {
     vertical-align: text-bottom;
 }
 
-.tech-unit h2{
-    font-size: 14px;
-    padding: 11px;
-}
-
 .contact{
     width: 100%;
     background: white;
@@ -381,12 +349,6 @@ form {
     margin: 0 auto 100px;
     border-radius: 10px;
     border: 1px solid darkgray;
-}
-
-form h3{
-    color: teal;
-    font-weight: 800;
-    margin-bottom: 20px;
 }
 
 form input, form textarea{
@@ -593,21 +555,6 @@ form input {
         bottom: 20px; 
     }
 
-    h1 {
-        font-size: 50px;
-        margin: 4.5px;
-    }
-    
-    h2 {
-        font-size: 32px;
-        margin: 0;
-    }
-
-    h3 {
-        font-size: 16px;
-        margin: 0;
-    }
-
     #about {
         height: 1250px;
     }
@@ -759,10 +706,6 @@ form input {
         height: 5px;
         width: 150px;
         border-radius: 1;
-    }
-
-    h4 {
-        font-size: 12px;
     }
 
     .dropdown_github {
