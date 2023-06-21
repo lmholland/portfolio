@@ -15,7 +15,7 @@ body::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     background-image: -webkit-linear-gradient(20deg, #b6b8b9 50%, #e4ebf3 50%);
     color: #093a52;
     position: relative;
@@ -120,7 +120,8 @@ section {
 }
 
 .my_name {
-    font-size: 96px;
+    font-size: 100px;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -388,7 +389,11 @@ form input {
     }
 }
 
-@media only screen and (min-width: 1212px) {
+@media only screen and (max-width: 1616px) {
+    .my_name {
+        color: red;
+    }
+
     #projects {
         height: 1000px;
     }
@@ -409,7 +414,7 @@ form input {
     }
 }
 
-@media only screen and (min-width: 806px){
+@media only screen and (max-width: 1211px){
     #about {
         height: 1100px;
     }
@@ -468,7 +473,7 @@ form input {
     }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (max-width: 805px) {
     .hamburger {
         display: block;
         position: absolute;
@@ -576,7 +581,7 @@ form input {
     }
 }
 
-@media only screen and (min-width: 401px) {
+@media only screen and (max-width: 600px) {
     #home{
         height: 1000px;
     }
@@ -634,7 +639,7 @@ form input {
     }
 }
 
-@media only screen and (min-width: 281px) {
+@media only screen and (max-width: 400px) {
     .my_name{
         font-size: 70px;
     }
