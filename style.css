@@ -1,6 +1,14 @@
 @font-face {
-    font-family: "Roboto";
-    src: url("./assets/roboto.ttf") format("ttf");
+    font-family: "rs15t";
+    src: url("/assets/rs15.tff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: "rs15w";
+    src: url("./assets/rs15w.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
@@ -15,7 +23,7 @@ body::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "rs15w";
     background-image: -webkit-linear-gradient(20deg, #b6b8b9 50%, #e4ebf3 50%);
     color: #093a52;
     position: relative;

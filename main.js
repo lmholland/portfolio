@@ -20,6 +20,7 @@
         let pause = 15; // intervals
         let blinks = 0;
         let blinker = document.createElement("span");
+        blinker.style.padding = "0";
         blinker.id = "blinker";
         blinker.innerHTML = "|"
         blinker.style.fontSize = "60px";
