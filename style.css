@@ -153,13 +153,21 @@ section {
     justify-content: center;
 }
 
+.about_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 15px;
+}
+
 .profile-pic {
-    display: inline-block;
-    padding: 30px 0;
+    display: block;
+    text-align: center;
 }
 
 .profile-pic img {
     width: 250px;
+    margin: 0 0 20px;
     border-radius: 30px;
     border: 2px solid grey;
 }
@@ -396,13 +404,6 @@ form input {
         height: 1000px;
     }
 
-    .about_info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 0 0 15px;
-    }
-
     .tech-stack {
         font-size: 12px;
     }
@@ -424,16 +425,6 @@ form input {
 
     .about_title {
         padding: 50px 0 30px;
-    }
-
-    .profile-pic {
-        display: block;
-        text-align: center;
-    }
-
-    .profile-pic img {
-        margin: 0 0 20px;
-        width: 250px;
     }
 
     #blurb {
