@@ -9,7 +9,7 @@
 
 <body>
     <input type="checkbox" id ="toggle" class="toggle"/>
-    <label class="hamburger" for="toggle">☰</label>
+    <label id="hamburger" for="toggle">☰</label>
 
     <label class="menu-wrapper" for="toggle">
         <nav class="menu">
@@ -52,7 +52,7 @@
                 <img id="profile-pic" src="./img/pic.png"> 
             </div>
             <div class="about_info">
-                <div id="blurb">
+                <div id="about_blurb">
                     Hi, I'm Mike! 
                     I'm a self-taught software developer that can build websites, games, and backend software for a variety of different platforms. 
                     I'm from New Jersey, USA originally but I've been living and working throughout Asia and Europe for the past decade. 
@@ -79,10 +79,10 @@
                         <div class="purple">0.4% HTML</div>
                         <div class="red">0.4% CSS</div>
                     </div>
-                    <div>
+                    <div class="dropdown-blurb">
                         Top-down 2D shooter game. You control a countryball 
-                        (based on the Polandball webcomic) and must capture the flag 
-                        at the given destination before others do!
+                        and must defend yourself whilte trying to capture the flag 
+                        at the destination given in the top left corner.
                     </div>
                     <a class="dropdown_github" href="https://www.github.com/lmholland/ffa"><img src="./img/github.png" ></a>
                 </div>
@@ -97,10 +97,9 @@
                         <div class="purple">0.1% HTML</div>
                         <div class="red">0.1% CSS</div>
                     </div>
-                    <div>
-                        3D pin-the-globe game. You are given a city and have a time limit
-                        that gets increased or decreased depending on how close you are
-                        able to get your pin to the final destination.
+                    <div class="dropdown-blurb">
+                        3D pin-the-globe game. You are given a city and get more time depending on how 
+                        close you can get your pin to the final destiantion.
                     </div>
                     <a class="dropdown_github" href="https://www.github.com/lmholland/globe"><img src="./img/github.png" ></a>
                 </div>
@@ -115,9 +114,9 @@
                         <div class="purple">0.1% HTML</div>
                         <div class="red">0.1% CSS</div>
                     </div>
-                    <div>
-                        Geography quiz that pieces together the data obtained from wikiscraper.com
-                        into a quiz. Uses both text and images as question and answer prompts.
+                    <div class="dropdown-blurb">
+                        Geography quiz that pieces together data obtained from scraping ~800 Wikipedia pages into 
+                        questions and answers of text and images about every country.
                     </div>
                     <a class="dropdown_github" href="https://www.github.com/lmholland/quiz"><img src="./img/github.png" ></a>
                 </div>
@@ -132,7 +131,7 @@
                         <div class="purple">36% CSS</div>
                         <div class="red">7% Javascript</div>
                     </div>
-                    <div>
+                    <div class="dropdown-blurb">
                         This portfolio website that showcases my 2022-2023 projects. Uses a mix
                         of HTML, CSS, and Javascript.
                     </div>
@@ -145,27 +144,27 @@
             <div class="tech-stack">
                 <div class="tech-unit">
                     <img src="./img/javascript.png" class="js">
-                    <div>Javascript</div>
+                    <div class="tech_name">Javascript</div>
                 </div>
                 <div class="tech-unit">
                     <img src="./img/python.png" id="py">
-                    <div>Python</div>
+                    <div class="tech_name">Python</div>
                 </div>
                 <div class="tech-unit">
                     <img src="./img/nodejs.png" id="node">
-                    <div>node.js</div>
+                    <div class="tech_name">node.js</div>
                 </div>
                 <div class="tech-unit">
                     <img src="./img/threejs.png" id="three">
-                    <div>three.js</div>
+                    <div class="tech_name">three.js</div>
                 </div>
                 <div class="tech-unit">
                     <img src="./img/html.png" id="html">
-                    <div>HTML</div>
+                    <div class="tech_name">HTML</div>
                 </div>
                 <div class="tech-unit">
                     <img src="./img/css.png" id="css">
-                    <div>CSS</div>
+                    <div class="tech_name">CSS</div>
                 </div>
             </div>
         </div>
