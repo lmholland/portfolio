@@ -240,7 +240,7 @@ section {
     border: 1px solid black;
     background-color: white;
     width: 100%;
-    height: 300px;
+    height: 320px;
     z-index: 1;
 }
 
@@ -263,11 +263,6 @@ section {
     padding: 3px 0;
 }
 
-.dropdown-content a:hover {
-    background-color: #f5f2f2;
-    color:#093a52;
-}
-
 .dropdown:hover .dropdown-content {
     display: block;
     border-radius: 0 0 25px 25px;
@@ -284,15 +279,30 @@ section {
     vertical-align: center;
 }
 
-.dropdown-content .dropdown_github{
-    border-radius: 30px;
+.github_unit{
+    text-align: center;
+    display: inline-block;
 }
 
-.dropdown-content .dropdown_github:hover{
-    background-color: white;
+.github_unit img {
+    width: 60px;
+    padding: 0 20px 0;
+    vertical-align: text-bottom;
+    border: none;
 }
 
-.dropdown-content .dropdown_github img{
+.github_name{
+    font-family: "rs6";
+    font-size: 15px;
+}
+
+.dropdown_github {
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 10px;
+}
+
+.dropdown_github img{
     border: none;
 }
 
@@ -421,10 +431,6 @@ form input {
 }
 
 @media only screen and (max-width: 1616px) {
-    .my_name {
-        color: red;
-    }
-
     #projects {
         height: 1000px;
     }
@@ -438,7 +444,7 @@ form input {
     }
 }
 
-@media only screen and (max-width: 1211px){
+@media only screen and (max-width: 1216px){
     #about {
         height: 1100px;
     }
@@ -453,6 +459,7 @@ form input {
     }
 
     #about_blurb {
+        text-align: center;
         margin: 0 auto;
         width: 600px;
     }
@@ -462,11 +469,15 @@ form input {
     }
 
     #projects {
-        height: 950px;
+        height: 970px;
     }
 
     .projects_title {
         padding: 70px 0;
+    }
+
+    .skills_title{
+        padding: 120px 0 0;
     }
     
     .tech-stack {
@@ -487,7 +498,7 @@ form input {
     }
 }
 
-@media only screen and (max-width: 805px) {
+@media only screen and (max-width: 808px) {
     #hamburger {
         display: block;
         position: absolute;
@@ -575,7 +586,7 @@ form input {
     }
 
     #about {
-        height: 1250px;
+        height: 1150px;
     }
 
     #about_blurb {
@@ -583,7 +594,7 @@ form input {
     }
 
     #projects {
-        height: 1400px;
+        height: 1450px;
     }
 
     .tech-stack {
@@ -592,6 +603,10 @@ form input {
 
     .tech-stack img {
         width: 28px;
+    }
+
+    #contact_blurb{
+        width: 500px;
     }
 }
 
@@ -646,6 +661,11 @@ form input {
         padding: 40px 0;
     }
 
+    #contact_blurb{
+        font-size: 25px;
+        width: 300px;
+    }
+
     form {
         width: 300px;
         margin: 0 auto 40px;
@@ -664,20 +684,27 @@ form input {
 
     .about_title {
         font-size: 40px;
-        padding: 30px 0 10px
+        padding: 50px 0;
     }
 
     #profile-pic{
         width: 180px;
     }
 
+    .about_info{
+        margin: 0;
+    }
+
     #about_blurb {
-        font-size: 15px;
+        margin: 0 auto;
+        padding: 20px 0 10px;
+        font-size: 17px;
         width: 240px;
     }
 
     .location {
         font-size: 30px;
+        padding: 30px 0 0;
     }
 
     .city {
@@ -686,11 +713,11 @@ form input {
 
     .projects_title {
         font-size: 40px;
-        padding: 30px 0;
+        padding: 50px 0;
     }
 
     #projects {
-        height: 1100px;
+        height: 1200px;
     }
 
     .projects {
@@ -710,7 +737,7 @@ form input {
     }
 
     .dropdown-content{
-        height: 250px;
+        height: 350px;
     }
 
     .dropdown-content .link{
@@ -723,26 +750,52 @@ form input {
 
     .info_bar img {
         height: 5px;
-        width: 150px;
+        width: 50px;
         border-radius: 1;
     }
 
-    .dropdown_github {
-        height: 30px;
+    .github_unit{
+        text-align: center;
+        display: inline-block;
     }
-
-    .dropdown_github img {
-        height: 30px;
-        width: 30px;
+    
+    .github_unit img {
+        width: 50px;
+        height: 50px;
+        padding: 0 10px 0;
+        vertical-align: text-bottom;
+        border: none;
+    }
+    
+    .github_name{
+        font-family: "rs6";
+        font-size: 15px;
     }
 
     .skills_title {
-        padding: 20px 0 10px;
+        padding: 80px 0 0;
+    }
+
+    .tech-stack{
+        width: 300px;
+    }
+
+    .tech-unit{
+        padding: 10px;
+    }
+
+    .tech_name{
+        font-size: 15px;
     }
 
     .contact_title {
         font-size: 40px;
         padding: 30px 0;
+    }
+
+    #contact_blurb{
+        font-size: 20px;
+        width: 200px;
     }
 
     form {
@@ -757,11 +810,5 @@ form input {
 
     #contact_message{
         height: 100px;
-    }
-}
-
-@media only screen and (max-width: 280px) {
-    .my_name {
-        color: red;
     }
 }
