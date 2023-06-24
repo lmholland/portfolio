@@ -617,6 +617,10 @@ form input {
         height: 800px;
     }
 
+    .my_name{
+        color:green;
+    }
+
     .title{
         font-size: 35px;
     }
