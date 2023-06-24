@@ -614,7 +614,7 @@ form input {
 
 @media only screen and (max-width: 600px) {
     #home{
-        height: 1000px;
+        height: 800px;
     }
 
     .title{
