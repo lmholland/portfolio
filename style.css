@@ -184,6 +184,7 @@ section {
 
 #about_blurb a {
     color: rgb(206, 23, 23);
+    text-decoration: underline;
 }
 
 #about_blurb a:hover {
@@ -378,6 +379,7 @@ section {
 
 #contact_blurb a{
     color: rgb(206, 23, 23);
+    text-decoration: underline;
 }
 
 #contact_blurb a:hover {
