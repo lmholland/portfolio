@@ -617,6 +617,10 @@ form input {
         height: 1000px;
     }
 
+    .my_name{
+        color:red;
+    }
+
     .title{
         font-size: 35px;
     }
@@ -683,7 +687,6 @@ form input {
 @media only screen and (max-width: 400px) {
     .my_name{
         font-size: 70px;
-        color: red;
     }
 
     #about{
