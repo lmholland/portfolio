@@ -591,6 +591,10 @@ form input {
         height: 1150px;
     }
 
+    .about_info{
+        margin: 0;
+    }
+
     #about_blurb {
         width: 450px;
     }
