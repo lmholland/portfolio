@@ -635,6 +635,7 @@ form input {
     }
 
     #about {
+        background-color: lightblue;
         height: 60em;
     }
 
@@ -673,7 +674,7 @@ form input {
     }
 
     .contact_title {
-        padding: 2.5em 0;
+        padding: 1.25em 0;
     }
 
     #contact_blurb{
