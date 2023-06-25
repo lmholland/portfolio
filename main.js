@@ -49,8 +49,8 @@
             
             let jobLength = jobs[currentJob].length;
             let partial = jobs[currentJob].slice(0, jobLength-(jobLength-currentLetter));
-            document.getElementById("title").innerHTML = partial;
-            document.getElementById("title").appendChild(blinker);
+            document.getElementById("flair").innerHTML = partial;
+            document.getElementById("flair").appendChild(blinker);
         }, 100)
     }
 
