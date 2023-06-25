@@ -657,11 +657,11 @@ form input {
     }
 
     #projects {
-        height: 84.375em;
+        height: 90em;
     }
 
     .projects_title {
-        padding: 2.5em 0;
+        padding: 1.25em 0;
     }
 
     .skills_title {
