@@ -635,7 +635,7 @@ form input {
     }
 
     #about {
-        height: 60em;
+        height: 62em;
     }
 
     .about_title {
@@ -653,7 +653,7 @@ form input {
     }
 
     .location {
-        padding: 1em 0 0.5em;
+        padding: 2em 0 0.5em;
     }
 
     #projects {
