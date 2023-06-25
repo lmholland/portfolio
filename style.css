@@ -121,61 +121,55 @@ section {
     text-align: center;
 }
 
-.cover {
-    position: absolute; 
-    border: 0.062em solid black;
-    width: 6.25em;
-}
-
 #about {
     height: 60em;
     display: block;
     background-color: white;
 }
 
-.about_title {
+#about_title {
     padding: 2em 0;
     font-size: 3.5em;
     text-align: center;
 }
 
-.about {
+#about_main_content {
     display: flex;
-    font-size: 0.9375em;
+    font-size: 1em;
     justify-content: center;
 }
 
-.about_info {
+#about_text_wrapper {
     font-family: "rs6";
     display: flex;
     flex-direction: column;
-    margin: auto 0 auto 1.875em;
+    margin: auto 0 auto 2em;
 }
 
-.profile-pic {
+#profile_pic_wrapper {
     display: block;
     text-align: center;
 }
 
-.profile-pic img {
+#profile_pic{
     width: 15.625em;
     margin: 1.25em 0;
     border-radius: 1.875em;
     border: 0.125em solid grey;
 }
 
-#about_blurb {
+#about_text {
     width: 25em;
     font-size: 1.8em;
     text-align: left;
 }
 
-#about_blurb a {
+#about_text a {
     color: rgb(206, 23, 23);
     text-decoration: underline;
 }
 
-#about_blurb a:hover {
+#about_text a:hover {
     color: rgb(206, 142, 23);
 }
 
