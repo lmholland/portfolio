@@ -618,7 +618,7 @@ form input {
 
 @media only screen and (max-width: 600px) {
     #home{
-        height: 800px;
+        height: 50em;
     }
 
     .my_name{
@@ -626,20 +626,20 @@ form input {
     }
 
     .title{
-        font-size: 35px;
+        font-size: 2.1875em;
     }
 
     #blinker{
-        font-size: 40px;
+        font-size: 2.5em;
     }
 
     #profile-pic {
-        width: 200px;
+        width: 12.5em;
         margin: 0;
     }
 
     #about {
-        height: 62.5em;
+        height: 60em;
     }
 
     .about_title {
