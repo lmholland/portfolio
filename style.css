@@ -635,7 +635,7 @@ form input {
     }
 
     #about {
-        height: 62em;
+        height: 60em;
     }
 
     .about_title {
@@ -653,7 +653,7 @@ form input {
     }
 
     .location {
-        padding: 2.5em 0 0.625em;
+        padding: 1em 0 0.5em;
     }
 
     #projects {
@@ -665,7 +665,7 @@ form input {
     }
 
     .skills_title {
-        padding: 3em 0 1em;
+        padding: 3em 0 0.5em;
     }
 
     .tech_name{
