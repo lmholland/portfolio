@@ -666,11 +666,11 @@ form input {
     }
 
     .skills_title {
-        padding: 5em 0 1.25em;
+        padding: 1.25em 0;
     }
 
     .tech_name{
-        font-size: .9375em;
+        font-size: 2em;
     }
 
     .contact_title {
