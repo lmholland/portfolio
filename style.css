@@ -635,12 +635,11 @@ form input {
     }
 
     #about {
-        background-color: gray;
-        height: 55em;
+        height: 60em;
     }
 
     .about_title {
-        padding: 2.5em 0 1.25em;
+        padding: 1.25em 0;
     }
 
     .about_info{
