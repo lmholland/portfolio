@@ -31,15 +31,6 @@ input {
     display: none;
 }
 
-a {
-    text-decoration: none;
-    color: #093a52;
-}
-
-a:hover {
-    color: cadetblue;
-}
-
 #hamburger {
     display: none;
 }
@@ -61,6 +52,15 @@ a:hover {
     right: 1em;
     top: 1em;
     word-spacing: 1em;
+}
+
+.link {
+    text-decoration: none;
+    color: #093a52;
+}
+
+.link:hover {
+    color: cadetblue;
 }
 
 #side_info {
@@ -127,9 +127,9 @@ section {
     background-color: white;
 }
 
-#about_title {
-    padding: 2em 0 1em;
+.section_heading {
     font-size: 3.5em;
+    padding: 2em 0 1em;
     text-align: center;
 }
 
@@ -137,13 +137,6 @@ section {
     display: flex;
     font-size: 1em;
     justify-content: center;
-}
-
-#about_text_wrapper {
-    font-family: "rs6";
-    display: flex;
-    flex-direction: column;
-    margin: auto 0 auto 2em;
 }
 
 #profile_pic_wrapper {
@@ -157,42 +150,45 @@ section {
     border: 0.1em solid grey;
 }
 
+#about_text_wrapper {
+    font-family: "rs6";
+    flex-direction: column;
+    margin: auto 0 auto 2em;
+}
+
 #about_text {
     width: 20em;
     font-size: 1.8em;
     text-align: left;
 }
 
-#about_text a {
+.text_link {
     color: #CE1717;
     text-decoration: underline;
 }
 
-#about_text a:hover {
+.text_link:hover {
     color: #CE8E17;
 }
 
-#location {
-    padding: 2.5em 0 0.3em;
-    font-size: 2.5em;
+.section_footer {
+    padding: 6em 0 0;
     text-align: center;
+}
+
+#location {
+    padding: 0 0 0.3em;
+    font-size: 2.5em;
 }
 
 #city {
     font-family: "rs6";
     font-size: 1.5em;
-    text-align: center;
 }
 
 #projects {
     display: block;
     height: 50em;
-}
-
-#projects_title {
-    font-size: 3.5em;
-    padding: 2em 0 1em;
-    text-align: center;
 }
 
 #projects_list {
@@ -208,9 +204,11 @@ section {
     margin: 0 1em;
 }
 
-.project img {
+.project_preview {
     border: 0.1em solid black;
     border-radius: 1.5em;
+    width: 18.75em;
+    height: 12.5em;
 }
 
 .project:hover img {
