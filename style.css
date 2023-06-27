@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
 
 body {
     font-family: "Denyut" !important;
-    background-image: -webkit-linear-gradient(20deg, #b6b8b9 50%, #e4ebf3 50%);
+    background-image: -webkit-linear-gradient(15deg, #b6b8b9 50%, #e4ebf3 50%);
     color: #093a52;
     position: relative;
     overflow-x: hidden;
@@ -183,7 +183,7 @@ section {
 
 #city {
     font-family: "rs6";
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 #projects {
@@ -193,6 +193,7 @@ section {
 
 #projects_list {
     margin: 0 auto;
+    padding: 0 5em;
     text-align: center;
 }
 
@@ -201,7 +202,7 @@ section {
     position: relative;
     width: 18.75em;
     height: 12.5em;
-    margin: 0 1em;
+    margin: 0.5em;
 }
 
 .project_preview {
@@ -370,75 +371,52 @@ form input {
     text-align: center;
 }
 
-@media only screen and (max-width: 1616px) {
+@media only screen and (max-width: 90.1875em) { /* 1443px */
     #projects {
-        height: 1000px;
-    }
-
-    .tech-stack {
-        font-size: 12px;
-    }
-
-    .tech-stack img {
-        width: 45px;
+        height: 64em;
     }
 }
 
-@media only screen and (max-width: 1216px){
+@media only screen and (max-width: 70em){ /* 1120px */
     #about {
-        height: 1100px;
+        height: 81em;
     }
 
-    .about {
+    .section_header {
+        padding: 1.5em 0 1em;
+    }
+
+    #about_main_content {
         display: block;
-        padding: 0;
     }
 
-    .about_title {
-        padding: 50px 0 30px;
-    }
-
-    #about_blurb {
-        text-align: center;
+    #profile_pic {
         margin: 0 auto;
-        width: 600px;
     }
 
-    .location {
-        padding: 70px 0 20px;
+    #about_text {
+        text-align: center;
+        margin: 1em auto;
     }
 
-    #projects {
-        height: 970px;
+    .section_footer {
+        padding: 3em 0 0;
     }
 
-    .projects_title {
-        padding: 70px 0;
+    #projects .section_footer {
+        padding: 6em 0 0;
     }
 
-    .skills_title{
-        padding: 120px 0 0;
-    }
-    
-    .tech-stack {
-        font-size: 8px;
-    }
-
-    .tech-stack img {
-        width: 32px;
-    }
-
-    .contact_title{
-        padding: 70px 0;
+    #contact_text {
+        width: 25em;
     }
 
     form {
-        width: 500px;
-        padding: 30px; 
+        width: 35em;
     }
 }
 
-@media only screen and (max-width: 808px) {
+@media only screen and (max-width: 50.5em) { /* 808px */
     #hamburger {
         display: block;
         position: absolute;
