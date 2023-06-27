@@ -1,7 +1,22 @@
 (() => {    
     typewriter();
+    screenHeight();
 
     window.addEventListener("click", clickFunctions);
+    window.addEventListener("resize", screenHeight);
+    
+    function screenHeight(){
+        const fontSize = 16;
+        const height = window.innerHeight
+            ||  document.documentElement.clientHeight
+            ||  document.body.clientHeight;
+        const viewHeight = height/fontSize + "em";
+        const menuPadding = (((height/fontSize) - 12)/8) + "em";
+
+        document.getElementById("menu").style.height = viewHeight;
+        document.getElementById("menu").style.padding = `${menuPadding} 0`;
+        document.getElementById("home").style.height = viewHeight;
+    }
 
     function typewriter(){
         let jobs = [

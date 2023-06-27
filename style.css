@@ -11,6 +11,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 body::-webkit-scrollbar {
@@ -19,7 +20,7 @@ body::-webkit-scrollbar {
 
 body {
     font-family: "Denyut" !important;
-    background-image: -webkit-linear-gradient(15deg, #b6b8b9 50%, #e4ebf3 50%);
+    background-image: -webkit-linear-gradient(20deg, #b6b8b9 50%, #e4ebf3 50%);
     color: #093a52;
     position: relative;
     overflow-x: hidden;
@@ -42,13 +43,6 @@ input {
     font-size: 2em;
     padding: 0;
     margin: 0;
-    right: 0;
-    width: 20em;
-}
-
-#menu_list {
-    display: block;
-    position: absolute;
     right: 1em;
     top: 1em;
     word-spacing: 1em;
@@ -104,10 +98,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#home {
-    height: 60em;
 }
 
 #my_name {
@@ -420,68 +410,64 @@ form input {
     #hamburger {
         display: block;
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 0.5em;
+        right: 0.5em;
         font-size: 3em;
         color: #093a52;
     }
 
     #hamburger:hover {
-        color: white;
+        color: cadetblue;
     }
 
-    .menu-wrapper, .side-info {
+    #menu, 
+    #side_info {
         display: none;
     }
 
-    #toggle:checked ~ .menu-wrapper {
+    #toggle:checked ~#menu {
+        display: flex;
+    }
+
+    #toggle:checked ~#side_info  {
         display: block;
     }
 
-    #toggle:checked ~ .side-info {
-        display: block;
-    }
-
-    .menu {
-        display: block;
-        position: fixed;
-        background-color: #e4ebf3;
-        border: 1px solid black;
-        height: 1000px;
-        width: 300px;
-        z-index: 2;
-    }
-
-    a:hover {
-        color:lightgray;
-    }
-
-    #toggle:checked ~ .close-menu-btn {
+    #toggle:checked ~ #close_menu_btn {
         display: block;
         position: fixed;
-        color: red;
-        right: 22px;
-        top: 22px;
+        color: #CE1717;
+        right: 0.5em;
+        top: 0.5em;
         font-size: 3.5em;
         z-index: 2;
     }
 
-    #toggle:checked ~ .close-menu-btn:hover {
-        color: orange;
+    #toggle:checked ~ #close_menu_btn:hover {
+        color: #CE8E17;
     }
 
-    .side-info{
+    #menu {
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        background-color: white;
+        border-left: 0.01em solid black;
+        width: 10em;
+        z-index: 2;
+        top: 0;
+        right: 0;
+    }
+
+    .link {
+        height: 3em;
+    }
+
+    #side_info{
         z-index: 2;
     }
 
-    .menu-list {
-        display: grid;
-        position: unset;
-        text-align: center;
-        padding-top: 250px;
-        row-gap:  100px;
-    }
-
+    /* 
     .socials {
         display: block;
         position: fixed;
@@ -529,12 +515,13 @@ form input {
 
     #contact_blurb{
         width: 500px;
-    }
+    } */
 }
 
-@media only screen and (max-width: 600px) {
-    #home{
-        height: 50em;
+/* @media only screen and (max-width: 700px) {
+
+    #my_name{
+        color: red;
     }
 
     .title{
@@ -742,4 +729,4 @@ form input {
     #contact_message{
         height: 100px;
     }
-}
+} */
