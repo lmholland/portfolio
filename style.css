@@ -406,7 +406,7 @@ form input {
     }
 }
 
-@media only screen and (max-width: 50.5em) { /* 808px */
+@media only screen and (max-width: 49.875em) { /* 798px */
     #hamburger {
         display: block;
         position: absolute;
@@ -425,8 +425,10 @@ form input {
         display: none;
     }
 
-    #toggle:checked ~#menu {
+    #toggle:checked ~#menu{
         display: flex;
+        justify-content: center;
+        align-items: center; 
     }
 
     #toggle:checked ~#side_info  {
@@ -436,20 +438,24 @@ form input {
     #toggle:checked ~ #close_menu_btn {
         display: block;
         position: fixed;
-        color: #CE1717;
+        /* color: #CE1717; */
+        color: white;
+        margin: 0.5em;
+        padding: 0.3em;
+        border-radius: 0.5em;
+        border: 0.1em solid #CE1717;
+        background-color: #CE1717;
         right: 0.5em;
         top: 0.5em;
-        font-size: 3.5em;
+        font-size: 1em;
         z-index: 2;
     }
 
     #toggle:checked ~ #close_menu_btn:hover {
-        color: #CE8E17;
+        color: black;
     }
 
     #menu {
-        flex-direction: column;
-        align-items: center;
         position: fixed;
         background-color: white;
         border-left: 0.01em solid black;
@@ -459,140 +465,132 @@ form input {
         right: 0;
     }
 
+    #link_list {
+        display: block;
+        text-align: center;
+        height: 16em;
+        padding: 1em 0;
+    }
+
     .link {
-        height: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        height: 4em;
+        width: 10em;
     }
 
     #side_info{
         z-index: 2;
     }
 
-    /* 
-    .socials {
+    #email {
+        display: block;
+        position: fixed;
+        text-align: center;
+        writing-mode: unset;
+        width: 11em;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        bottom: 1em; 
+        font-size: 0.8em;
+    }
+
+    #email .link {
+        height: 0;
+    }
+
+    #socials {
         display: block;
         position: fixed;
         text-align: center;
         font-size: 1em;
-        width: 260px;
-        padding: 0 10px;
-        bottom: 50px;
+        width: 10em;
+        bottom: 2em;
+        right: 0;
     }
 
-    .email {
-        display: block;
-        position: fixed;
-        text-align: center;
-        font-size: 0.5em;
-        writing-mode: unset;
-        width: 260px;
-        padding: 0 10px;
-        bottom: 20px; 
+    #socials a{
+        text-decoration: none;
     }
 
-    #about {
-        height: 1150px;
-    }
-
-    .about_info{
-        margin: 0;
-    }
-
-    #about_blurb {
-        width: 450px;
+    .socials_img {
+        width: 1.5em;
     }
 
     #projects {
-        height: 1450px;
+        height: 90em;
     }
 
-    .tech-stack {
-        display: inline-block;
+    .project_link{
+        height: 1em;
     }
 
-    .tech-stack img {
-        width: 28px;
+    #skill_list {
+        width: unset;
+        margin: 1em 0 0;
+        padding: 0;
     }
-
-    #contact_blurb{
-        width: 500px;
-    } */
 }
 
-/* @media only screen and (max-width: 700px) {
-
-    #my_name{
-        color: red;
-    }
-
-    .title{
-        font-size: 2.1875em;
-    }
-
-    #blinker{
+@media only screen and (max-width: 700px) {
+    #flair{
         font-size: 2.5em;
     }
 
-    #profile-pic {
-        width: 12.5em;
-        margin: 0;
-    }
-
     #about {
-        height: 62em;
+        height: 76em;
     }
 
-    .about_title {
-        padding: 1.25em 0;
+    .section_header {
+        font-size: 3em
     }
 
-    .about_info{
-        margin: 0;
+    #profile_pic {
+        width: 15em;
     }
 
-    #about_blurb {
-        margin: 1.25em auto 0;
-        font-size: 1.25em;
-        width: 18.75em;
+    #about_text_wrapper {
+        margin: auto 0;
+    }
+    
+    #about_text {
+        width: 15em;
+        font-size: 1.5em;
     }
 
-    .location {
-        padding: 1.5em 0 0.5em;
+    #city {
+        font-size: 1.8em;
     }
 
-    #projects {
-        height: 85em;
+    .tech_unit {
+        margin: 0.5em;
     }
 
-    .projects_title {
-        padding: 1.25em 0;
-    }
-
-    .skills_title {
-        padding: 3em 0 0.5em;
-    }
-
-    .tech_name{
-        font-size: 2em;
-    }
-
-    .contact_title {
-        padding: 1.25em 0;
-    }
-
-    #contact_blurb{
+    #contact_text {
         font-size: 1.5em;
         width: 15em;
     }
 
     form {
-        width: 18.75em;
-        margin: 0 auto 2.5em;
-        padding: 1.25em;
+        width: 20em;
+        margin: 0 auto 2em;
+        padding: 1em;
+    }
+
+    #contact {
+        height: 55em;
+    }
+
+    #contact_message {
+        height: 8em;
     }
 }
 
 @media only screen and (max-width: 450px) {
-    .my_name{
+    #my_name{
+        color: red;
         font-size: 70px;
     }
 
@@ -729,4 +727,4 @@ form input {
     #contact_message{
         height: 100px;
     }
-} */
+}

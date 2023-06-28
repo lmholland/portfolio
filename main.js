@@ -10,12 +10,11 @@
         const height = window.innerHeight
             ||  document.documentElement.clientHeight
             ||  document.body.clientHeight;
-        const viewHeight = height/fontSize + "em";
-        const menuPadding = (((height/fontSize) - 12)/8) + "em";
+        const menuHeight = height/fontSize/2 + "em"
+        const sectionHeight = height/fontSize + "em";
 
-        document.getElementById("menu").style.height = viewHeight;
-        document.getElementById("menu").style.padding = `${menuPadding} 0`;
-        document.getElementById("home").style.height = viewHeight;
+        document.getElementById("menu").style.height = menuHeight;
+        document.getElementById("home").style.height = sectionHeight;
     }
 
     function typewriter(){
@@ -38,7 +37,7 @@
         blinker.style.padding = "0";
         blinker.id = "blinker";
         blinker.innerHTML = "|"
-        blinker.style.fontSize = "60px";
+        blinker.style.fontSize = "1.5em";
 
         setInterval(function typewriter(){
             if(jobs[currentJob].length + pause == currentLetter){
