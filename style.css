@@ -727,6 +727,35 @@ form input {
     }
 }
 
+@media only screen and (max-width: 21.875em) { /* 350px */
+    .project, .project_preview {
+        width: 18em;
+        height: 12em;
+    }
+
+    .dropdown_content {
+        width: 18em;
+        height: 20em;
+        padding: 0.5em 0;
+    }
+
+    .project_link {
+        height: 1em;
+        font-size: 1.8em;
+        margin: 0;
+        padding: 0;
+    }
+
+    form {
+        width: 16em;
+        padding: 0.5em;
+    }
+
+    #contact_message {
+        height: 7em;
+    }
+}
+
 @media only screen and (max-width: 18.75em) { /* 300px */
 
     #about {
@@ -739,16 +768,21 @@ form input {
 
     #about_text {
         width: 12em;
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
-    /* #projects {
-        height: 
-    } */
+    #projects {
+        height: 75em;
+    }
+
+    .project, .project_preview {
+        width: 14em;
+        height: 9em;
+    }
 
     .dropdown_content {
-        height: 22em;
         width: 14em;
+        height: 22em;
         padding: 0.5em 0;
     }
 
@@ -756,8 +790,12 @@ form input {
         font-size: 1.4em;
     }
 
+    .percent_bar {
+        width: 12em;
+    }
+
     #projects .section_footer {
-        padding: 4em 0 0;
+        padding: 5em 0 0;
     }
 
     #contact {
