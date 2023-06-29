@@ -370,6 +370,7 @@ form input {
 @media only screen and (max-width: 70em){ /* 1120px */
     #about {
         height: 81em;
+        color: gray
     }
 
     .section_header {
@@ -517,6 +518,10 @@ form input {
 
     .socials_img {
         width: 1.5em;
+    }
+
+    #about {
+        color: turquoise;
     }
 
     #projects {
