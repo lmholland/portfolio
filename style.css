@@ -593,6 +593,10 @@ form input {
         width: 7em;
     }
 
+    #link_list{
+        height: 10em;
+    }
+
     .link {
         height: 2.5em;
     }
