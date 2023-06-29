@@ -370,7 +370,6 @@ form input {
 @media only screen and (max-width: 70em){ /* 1120px */
     #about {
         height: 81em;
-        color: gray
     }
 
     .section_header {
@@ -520,10 +519,6 @@ form input {
         width: 1.5em;
     }
 
-    #about {
-        color: turquoise;
-    }
-
     #projects {
         height: 90em;
     }
@@ -546,7 +541,6 @@ form input {
 
     #about {
         height: 76em;
-        color: pink;
     }
 
     .section_header {
@@ -599,6 +593,10 @@ form input {
         width: 7em;
     }
 
+    .link {
+        height: 2.5em;
+    }
+
     #email {
         margin: 0;
         padding: 0;
@@ -621,7 +619,7 @@ form input {
     }
 
     #about {
-        height: 70em;
+        height: 72em;
         color: yellow;
     }
 
@@ -631,6 +629,7 @@ form input {
 
     #profile_pic {
         width: 15em;
+        height: 20em;
     }
 
     #about_text {
@@ -653,6 +652,10 @@ form input {
     .project, .project_preview {
         width: 20em;
         height: 12.5em;
+    }
+
+    .project_preview {
+        border: 0.05em solid black;
     }
 
     .dropdown_content {
@@ -695,7 +698,7 @@ form input {
     }
 
     form {
-        width: 22em;
+        width: 20em;
         padding: 0.5em;
     }
 
@@ -710,10 +713,8 @@ form input {
 }
 
 @media only screen and (max-width: 25em) { /* 400px */
-
     #about {
         height: 60em;
-        color: red;
     }
 
     #profile_pic {
@@ -736,11 +737,6 @@ form input {
 }
 
 @media only screen and (max-width: 21.875em) { /* 350px */
-
-    #about {
-        color: blue
-    }
-
     .project, .project_preview {
         width: 18em;
         height: 12em;
@@ -770,10 +766,8 @@ form input {
 }
 
 @media only screen and (max-width: 18.75em) { /* 300px */
-
     #about {
         height: 62em;
-        color: orange
     }
 
     #profile_pic {
