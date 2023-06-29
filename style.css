@@ -368,45 +368,6 @@ form input {
 }
 
 @media only screen and (max-width: 70em){ /* 1120px */
-    #about {
-        height: 81em;
-    }
-
-    .section_header {
-        padding: 1.5em 0 1em;
-    }
-
-    #about_main_content {
-        display: block;
-    }
-
-    #profile_pic {
-        margin: 0 auto;
-    }
-
-    #about_text {
-        text-align: center;
-        margin: 1em auto;
-    }
-
-    .section_footer {
-        padding: 3em 0 0;
-    }
-
-    #projects .section_footer {
-        padding: 6em 0 0;
-    }
-
-    #contact_text {
-        width: 25em;
-    }
-
-    form {
-        width: 35em;
-    }
-}
-
-@media only screen and (max-width: 49.875em) { /* 798px */
     #hamburger {
         display: block;
         position: absolute;
@@ -438,7 +399,6 @@ form input {
     #toggle:checked ~ #close_menu_btn {
         display: block;
         position: fixed;
-        /* color: #CE1717; */
         color: white;
         margin: 0.5em;
         padding: 0.3em;
@@ -519,6 +479,45 @@ form input {
         width: 1.5em;
     }
 
+    #about {
+        height: 81em;
+    }
+
+    .section_header {
+        padding: 1.5em 0 1em;
+    }
+
+    #about_main_content {
+        display: block;
+    }
+
+    #profile_pic {
+        margin: 0 auto;
+    }
+
+    #about_text {
+        text-align: center;
+        margin: 1em auto;
+    }
+
+    .section_footer {
+        padding: 3em 0 0;
+    }
+
+    #projects .section_footer {
+        padding: 6em 0 0;
+    }
+
+    #contact_text {
+        width: 25em;
+    }
+
+    form {
+        width: 35em;
+    }
+}
+
+@media only screen and (max-width: 49.875em) { /* 798px */
     #projects {
         height: 90em;
     }
