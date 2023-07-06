@@ -437,16 +437,12 @@ form button{
     #link_list {
         display: block;
         text-align: center;
-        height: 16em;
-        padding: 1em 0;
     }
 
-    .link {
+    .menu_link {
         display: flex;
         justify-content: center;
         align-items: center; 
-        height: 4em;
-        width: 10em;
     }
 
     #side_info {
@@ -454,16 +450,11 @@ form button{
     }
 
     #email {
-        display: block;
-        position: fixed;
-        text-align: center;
+        display: flex;
         writing-mode: unset;
-        width: 11em;
-        margin: 0;
-        padding: 0;
-        right: 0;
+        justify-content: center;
         bottom: 1em; 
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     #email .link {
@@ -605,25 +596,14 @@ form button{
         width: 7em;
     }
 
-    #link_list{
-        height: 10em;
-    }
-
-    .link {
-        height: 2.5em;
-    }
-
     #email {
-        margin: 0;
-        padding: 0;
-        right: 0;
+        display: flex;
         bottom: 2em; 
-        font-size: 0.6em;
+        font-size: 0.5em;
     }
 
     #socials {
         width: 7em;
-
     }
 
     #my_name{

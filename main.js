@@ -11,9 +11,13 @@
             ||  document.documentElement.clientHeight
             ||  document.body.clientHeight;
         const menuHeight = height/fontSize/2 + "em"
+        // const menuLinkHeight = height/fontSize/10 + "em";
         const sectionHeight = height/fontSize + "em";
 
+        // console.log(menuLinkHeight)
+
         document.getElementById("menu").style.height = menuHeight;
+        // document.getElementsByClassName("menu_link").height = menuLinkHeight;
         document.getElementById("home").style.height = sectionHeight;
     }
 
