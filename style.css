@@ -602,14 +602,6 @@ form button{
         font-size: 0.7em;
     }
 
-    /* #email {
-        display: flex;
-        writing-mode: unset;
-        justify-content: center;
-        bottom: 1em; 
-        font-size: 1em;
-    } */
-
     #socials {
         width: 7em;
     }

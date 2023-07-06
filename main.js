@@ -14,8 +14,6 @@
         const menuLinkHeight = height/fontSize/20 + "em";
         const sectionHeight = height/fontSize + "em";
 
-        console.log(menuLinkHeight)
-
         document.getElementById("menu").style.height = menuHeight;
         document.getElementById("menu_link1").style.height = menuLinkHeight;
         document.getElementById("menu_link2").style.height = menuLinkHeight;
