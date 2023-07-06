@@ -440,7 +440,7 @@ form button{
     }
 
     .menu_link {
-        display: flex;
+        display: grid;
         justify-content: center;
         align-items: center; 
     }
