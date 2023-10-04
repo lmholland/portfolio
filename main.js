@@ -24,15 +24,15 @@
 
     function typewriter(){
         let jobs = [
-            "Geography Nerd", 
-            "Liker of Dogs", 
             "Software Programmer", 
+            "Geography Nerd", 
+            "Dog Lover", 
+            "Website Developer", 
             "Audiobook Addict", 
             "World Traveler", 
-            "Website Developer", 
+            "Computer Engineer",
             "Puzzle Solver", 
-            "Coffee Enthusiast", 
-            "Computer Engineer"
+            "Coffee Enthusiast"
         ];
         let currentLetter = 0;
         let currentJob = 0;
